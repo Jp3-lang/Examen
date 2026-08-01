@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Examen de Sexto de Primaria</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    .contenedor {
+      width: 90%;
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .pantalla {
+      display: none;
+    }
+
+    .pantalla.activa {
+      display: block;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 15px 0;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    button:disabled {
+      background: #999;
+      cursor: not-allowed;
+    }
+
+    .pregunta {
+      margin: 25px 0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .opcion {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      cursor: pointer;
+    }
+
+    .opcion:hover {
+      background: #e2e8f0;
+    }
+
+    .temporizador {
+      position: sticky;
+      top: 0;
+      background: #dc2626;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 22px;
+      font-weight: bold;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .mensaje {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+  <!-- INICIO -->
+
+  <section id="inicio" class="pantalla activa">
+
+    <h1>Examen de Sexto de Primaria</h1>
+
+    <p>
+      Bienvenido al examen.
+    </p>
+
+    <p>
+      Primero realizarás el examen de Matemáticas.
+      Tendrás 20 minutos para completarlo.
+    </p>
+
+    <p>
+      Después de entregar Matemáticas comenzarás
+      el examen de Español.
+    </p>
+
+    <input
+      type="text"
+      id="nombreAlumno"
+      placeholder="Escribe tu nombre completo"
+    >
+
+    <button onclick="comenzarExamen()">
+      Comenzar examen
+    </button>
+
+  </section>
+
+
+  <!-- MATEMÁTICAS -->
+
+  <section id="matematicas" class="pantalla">
+
+    <h2>Examen de Matemáticas</h2>
+
+    <div class="temporizador" id="timerMatematicas">
+      20:00
+    </div>
+
+    <div id="preguntasMatematicas"></div>
+
+    <button onclick="entregarMatematicas()">
+      Entregar Matemáticas
+    </button>
+
+  </section>
+
+
+  <!-- ESPAÑOL -->
+
+  <section id="espanol" class="pantalla">
+
+    <h2>Examen de Español</h2>
+
+    <div class="temporizador" id="timerEspanol">
+      20:00
+    </div>
+
+    <div id="preguntasEspanol"></div>
+
+    <button onclick="entregarEspanol()">
+      Entregar Español
+    </button>
+
+  </section>
+
+
+  <!-- FINAL -->
+
+  <section id="final" class="pantalla">
+
+    <h2>Examen terminado</h2>
+
+    <div class="mensaje">
+
+      <p>
+        Has completado los exámenes de Matemáticas y Español.
+      </p>
+
+      <p>
+        Tus respuestas han sido registradas correctamente.
+      </p>
+
+      <p>
+        Gracias por participar.
+      </p>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<script>
+
+/* =========================================
+   CONFIGURACIÓN DEL EXAMEN
+========================================= */
+
+const TIEMPO_MATEMATICAS = 20;
+
+const TIEMPO_ESPANOL = 20;
+
+
+/* =========================================
+   VARIABLES
+========================================= */
+
+let nombreAlumno = "";
+
+let tiempoRestante = 0;
+
+let intervalo = null;
+
+let respuestasMatematicas = {};
+
+let respuestasEspanol = {};
+
+
+/* =========================================
+   PREGUNTAS TEMPORALES
+========================================= */
+
+/*
+   Estas preguntas son solamente para probar
+   que el sistema funciona.
+
+   Después reemplazaremos estas preguntas
+   por el examen definitivo.
+*/
+
+
+const preguntasMatematicas = [
+
+  {
+    pregunta: "¿Cuál es el resultado de 25 + 37?",
+    opciones: [
+      "52",
+      "62",
+      "72",
+      "82"
+    ],
+    correcta: 1
+  },
+
+  {
+    pregunta: "¿Cuál es el resultado de 100 - 45?",
+    opciones: [
+      "45",
+      "55",
+      "65",
+      "75"
+    ],
+    correcta: 1
+  },
+
+  {
+    pregunta: "¿Cuál es el resultado de 12 × 5?",
+    opciones: [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    correcta: 1
+  },
+
+  {
+    pregunta: "¿Cuál es el resultado de 100 ÷ 4?",
+    opciones: [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    correcta: 1
+  }
+
+];
+
+
+const preguntasEspanol = [
+
+  {
+    pregunta: "¿Cuál oración está escrita correctamente?",
+    opciones: [
+      "El niño juega en el parque.",
+      "El niño juega en él parque.",
+      "El niño juega en el parque",
+      "El niño juega en él Parque."
+    ],
+    correcta: 0
+  },
+
+  {
+    pregunta: "¿Cuál palabra está escrita correctamente?",
+    opciones: [
+      "camion",
+      "camión",
+      "cámion",
+      "camíon"
+    ],
+    correcta: 1
+  },
+
+  {
+    pregunta: "¿Cuál es un sinónimo de 'feliz'?",
+    opciones: [
+      "Triste",
+      "Enojado",
+      "Contento",
+      "Cansado"
+    ],
+    correcta: 2
+  },
+
+  {
+    pregunta: "¿Cuál es un antónimo de 'grande'?",
+    opciones: [
+      "Enorme",
+      "Pequeño",
+      "Gigante",
+      "Amplio"
+    ],
+    correcta: 1
+  }
+
+];
+
+
+/* =========================================
+   CAMBIAR DE PANTALLA
+========================================= */
+
+function mostrarPantalla(id) {
+
+  document.querySelectorAll(".pantalla").forEach(
+    pantalla => pantalla.classList.remove("activa")
+  );
+
+  document.getElementById(id).classList.add("activa");
+
+}
+
+
+/* =========================================
+   COMENZAR EXAMEN
+========================================= */
+
+function comenzarExamen() {
+
+  const nombre =
+    document.getElementById("nombreAlumno").value.trim();
+
+  if (nombre === "") {
+
+    alert("Por favor escribe tu nombre completo.");
+
+    return;
+
+  }
+
+  nombreAlumno = nombre;
+
+  mostrarPreguntasMatematicas();
+
+  mostrarPantalla("matematicas");
+
+  iniciarTemporizador(
+    TIEMPO_MATEMATICAS,
+    "timerMatematicas",
+    entregarMatematicas
+  );
+
+}
+
+
+/* =========================================
+   MOSTRAR MATEMÁTICAS
+========================================= */
+
+function mostrarPreguntasMatematicas() {
+
+  const contenedor =
+    document.getElementById("preguntasMatematicas");
+
+  contenedor.innerHTML = "";
+
+  preguntasMatematicas.forEach(
+    (pregunta, indice) => {
+
+      let html = `
+        <div class="pregunta">
+
+          <strong>
+            ${indice + 1}. ${pregunta.pregunta}
+          </strong>
+      `;
+
+      pregunta.opciones.forEach(
+        (opcion, opcionIndice) => {
+
+          html += `
+            <label class="opcion">
+
+              <input
+                type="radio"
+                name="matematica_${indice}"
+                value="${opcionIndice}"
+              >
+
+              ${opcion}
+
+            </label>
+          `;
+
+        }
+      );
+
+      html += `</div>`;
+
+      contenedor.innerHTML += html;
+
+    }
+  );
+
+}
+
+
+/* =========================================
+   MOSTRAR ESPAÑOL
+========================================= */
+
+function mostrarPreguntasEspanol() {
+
+  const contenedor =
+    document.getElementById("preguntasEspanol");
+
+  contenedor.innerHTML = "";
+
+  preguntasEspanol.forEach(
+    (pregunta, indice) => {
+
+      let html = `
+        <div class="pregunta">
+
+          <strong>
+            ${indice + 1}. ${pregunta.pregunta}
+          </strong>
+      `;
+
+      pregunta.opciones.forEach(
+        (opcion, opcionIndice) => {
+
+          html += `
+            <label class="opcion">
+
+              <input
+                type="radio"
+                name="espanol_${indice}"
+                value="${opcionIndice}"
+              >
+
+              ${opcion}
+
+            </label>
+          `;
+
+        }
+      );
+
+      html += `</div>`;
+
+      contenedor.innerHTML += html;
+
+    }
+  );
+
+}
+
+
+/* =========================================
+   TEMPORIZADOR
+========================================= */
+
+function iniciarTemporizador(
+  minutos,
+  elementoId,
+  funcionFinal
+) {
+
+  clearInterval(intervalo);
+
+  tiempoRestante = minutos * 60;
+
+  actualizarTemporizador(elementoId);
+
+  intervalo = setInterval(
+    () => {
+
+      tiempoRestante--;
+
+      actualizarTemporizador(elementoId);
+
+      if (tiempoRestante <= 0) {
+
+        clearInterval(intervalo);
+
+        alert(
+          "El tiempo se ha terminado. El examen será entregado automáticamente."
+        );
+
+        funcionFinal();
+
+      }
+
+    },
+    1000
+  );
+
+}
+
+
+/* =========================================
+   ACTUALIZAR TEMPORIZADOR
+========================================= */
+
+function actualizarTemporizador(elementoId) {
+
+  const minutos =
+    Math.floor(tiempoRestante / 60);
+
+  const segundos =
+    tiempoRestante % 60;
+
+  document.getElementById(elementoId).textContent =
+
+    String(minutos).padStart(2, "0")
+    + ":"
+    + String(segundos).padStart(2, "0");
+
+}
+
+
+/* =========================================
+   ENTREGAR MATEMÁTICAS
+========================================= */
+
+function entregarMatematicas() {
+
+  clearInterval(intervalo);
+
+  const respuestas =
+    document.querySelectorAll(
+      'input[name^="matematica_"]:checked'
+    );
+
+  respuestas.forEach(
+    respuesta => {
+
+      const indice =
+        respuesta.name.split("_")[1];
+
+      respuestasMatematicas[indice] =
+        parseInt(respuesta.value);
+
+    }
+  );
+
+
+  mostrarPreguntasEspanol();
+
+  mostrarPantalla("espanol");
+
+
+  iniciarTemporizador(
+    TIEMPO_ESPANOL,
+    "timerEspanol",
+    entregarEspanol
+  );
+
+}
+
+
+/* =========================================
+   ENTREGAR ESPAÑOL
+========================================= */
+
+function entregarEspanol() {
+
+  clearInterval(intervalo);
+
+  const respuestas =
+    document.querySelectorAll(
+      'input[name^="espanol_"]:checked'
+    );
+
+  respuestas.forEach(
+    respuesta => {
+
+      const indice =
+        respuesta.name.split("_")[1];
+
+      respuestasEspanol[indice] =
+        parseInt(respuesta.value);
+
+    }
+  );
+
+
+  calcularResultados();
+
+}
+
+
+/* =========================================
+   CALCULAR RESULTADOS
+========================================= */
+
+function calcularResultados() {
+
+  let puntosMatematicas = 0;
+
+  let puntosEspanol = 0;
+
+
+  preguntasMatematicas.forEach(
+    (pregunta, indice) => {
+
+      if (
+        respuestasMatematicas[indice]
+        === pregunta.correcta
+      ) {
+
+        puntosMatematicas++;
+
+      }
+
+    }
+  );
+
+
+  preguntasEspanol.forEach(
+    (pregunta, indice) => {
+
+      if (
+        respuestasEspanol[indice]
+        === pregunta.correcta
+      ) {
+
+        puntosEspanol++;
+
+      }
+
+    }
+  );
+
+
+  console.log(
+    "Alumno:",
+    nombreAlumno
+  );
+
+  console.log(
+    "Matemáticas:",
+    puntosMatematicas
+  );
+
+  console.log(
+    "Español:",
+    puntosEspanol
+  );
+
+
+  mostrarPantalla("final");
+
+}
+
+</script>
+
+</body>
+</html>
