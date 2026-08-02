@@ -213,8 +213,31 @@
 </div>
 
 
-<script>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
 
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+
+ const firebaseConfig = {
+    apiKey: "AIzaSyAxv_ZFMYvbwHWtQhLYf7ZlhnyyOFOB05w",
+    authDomain: "examen-11a7c.firebaseapp.com",
+    projectId: "examen-11a7c",
+    storageBucket: "examen-11a7c.firebasestorage.app",
+    messagingSenderId: "1075495431638",
+    appId: "1:1075495431638:web:341f1cb00f5df4ec520877"
+  };
+
+
+const app = initializeApp(firebaseConfig);
+
+const db = getFirestore(app);
+  
 /* =========================================
    CONFIGURACIÓN DEL EXAMEN
 ========================================= */
@@ -639,62 +662,85 @@ function entregarEspanol() {
    CALCULAR RESULTADOS
 ========================================= */
 
-function calcularResultados() {
+async function calcularResultados() {
 
   let puntosMatematicas = 0;
-
   let puntosEspanol = 0;
 
+  preguntasMatematicas.forEach((pregunta, indice) => {
 
-  preguntasMatematicas.forEach(
-    (pregunta, indice) => {
+    if (
+      respuestasMatematicas[indice] === pregunta.correcta
+    ) {
+      puntosMatematicas++;
+    }
 
-      if (
-        respuestasMatematicas[indice]
-        === pregunta.correcta
-      ) {
+  });
 
-        puntosMatematicas++;
+
+  preguntasEspanol.forEach((pregunta, indice) => {
+
+    if (
+      respuestasEspanol[indice] === pregunta.correcta
+    ) {
+      puntosEspanol++;
+    }
+
+  });
+
+
+  try {
+
+    await addDoc(
+      collection(db, "resultados"),
+      {
+
+        nombre: nombreAlumno,
+
+        matematicas: puntosMatematicas,
+
+        totalMatematicas:
+          preguntasMatematicas.length,
+
+        espanol: puntosEspanol,
+
+        totalEspanol:
+          preguntasEspanol.length,
+
+        respuestasMatematicas:
+          respuestasMatematicas,
+
+        respuestasEspanol:
+          respuestasEspanol,
+
+        fecha:
+          serverTimestamp()
 
       }
-
-    }
-  );
+    );
 
 
-  preguntasEspanol.forEach(
-    (pregunta, indice) => {
-
-      if (
-        respuestasEspanol[indice]
-        === pregunta.correcta
-      ) {
-
-        puntosEspanol++;
-
-      }
-
-    }
-  );
+    console.log(
+      "Resultado guardado correctamente"
+    );
 
 
-  console.log(
-    "Alumno:",
-    nombreAlumno
-  );
-
-  console.log(
-    "Matemáticas:",
-    puntosMatematicas
-  );
-
-  console.log(
-    "Español:",
-    puntosEspanol
-  );
+    mostrarPantalla("final");
 
 
-  mostrarPantalla("final");
+  } catch (error) {
+
+    console.error(
+      "Error al guardar el resultado:",
+      error
+    );
+
+
+    alert(
+      "No se pudo guardar el resultado. Por favor, intenta nuevamente."
+    );
+
+  }
 
 }
 
