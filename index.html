@@ -392,7 +392,7 @@ function mostrarPantalla(id) {
    COMENZAR EXAMEN
 ========================================= */
 
-function comenzarExamen() {
+window.comenzarExamen = function() {
 
   const nombre =
     document.getElementById("nombreAlumno").value.trim();
@@ -591,7 +591,7 @@ function actualizarTemporizador(elementoId) {
    ENTREGAR MATEMÁTICAS
 ========================================= */
 
-function entregarMatematicas() {
+window.entregarMatematicas = function() {
 
   clearInterval(intervalo);
 
@@ -631,7 +631,7 @@ function entregarMatematicas() {
    ENTREGAR ESPAÑOL
 ========================================= */
 
-function entregarEspanol() {
+window.entregarEspanol = function() {
 
   clearInterval(intervalo);
 
