@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -26,19 +27,6 @@
     h1 {
       text-align: center;
       color: #333;
-    }
-
-    h2 {
-      color: #444;
-    }
-
-    input {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      box-sizing: border-box;
     }
 
     button {
@@ -85,7 +73,6 @@
 
     .cerrar {
       background: #dc2626;
-      margin-bottom: 20px;
     }
 
     .cerrar:hover {
@@ -108,71 +95,89 @@
 
     }
   </style>
+
 </head>
 
 <body>
 
 <div class="contenedor">
 
+  <!-- LOGIN -->
+
   <div id="login">
 
-    <h1>Panel de Administrador</h1>
+```
+<h1>Panel de Administrador</h1>
 
-    <h2>Examen de Ingreso</h2>
+<p style="text-align:center;">
+  Inicia sesión con tu cuenta de Google
+</p>
 
-    <input
-      type="password"
-      id="clave"
-      placeholder="Introduce la contraseña"
-    >
+<button id="btnGoogle">
+  🔐 Acceder con Google
+</button>
 
-    <button onclick="entrar()">
-      Entrar
-    </button>
-
-    <p id="mensaje"></p>
+<p id="mensaje"></p>
+```
 
   </div>
 
+  <!-- PANEL -->
 
   <div id="panel">
 
-    <h1>Resultados del Examen de Ingreso</h1>
+```
+<h1>Resultados del Examen de Ingreso</h1>
 
-    <button
-      class="cerrar"
-      onclick="cerrarSesion()"
-    >
-      Cerrar sesión
-    </button>
+<p id="usuario"></p>
 
-    <button onclick="cargarResultados()">
-      Actualizar resultados
-    </button>
+<button
+  class="cerrar"
+  id="btnCerrar">
+  Cerrar sesión
+</button>
 
-    <div id="resultados">
-      Cargando resultados...
-    </div>
+<button id="btnActualizar">
+  Actualizar resultados
+</button>
+
+<div id="resultados">
+  Cargando resultados...
+</div>
+```
 
   </div>
 
 </div>
 
-
 <script type="module">
 
-  import { initializeApp }
-  from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+  import {
+    initializeApp
+  } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+
 
   import {
     getFirestore,
     collection,
     getDocs
-  }
-  from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+  } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
 
 
-  const firebaseConfig = {
+  import {
+    getAuth,
+    GoogleAuthProvider,
+    signInWithPopup,
+    signOut,
+    onAuthStateChanged
+  } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+
+
+  // =========================================
+  // CONFIGURACIÓN DE FIREBASE
+  // =========================================
+
+   const firebaseConfig = {
     apiKey: "AIzaSyAxv_ZFMYvbwHWtQhLYf7ZlhnyyOFOB05w",
     authDomain: "examen-11a7c.firebaseapp.com",
     projectId: "examen-11a7c",
@@ -182,76 +187,150 @@
   };
 
 
-  const app = initializeApp(firebaseConfig);
+  // =========================================
+  // INICIALIZAR FIREBASE
+  // =========================================
 
-  const db = getFirestore(app);
+  const app =
+    initializeApp(firebaseConfig);
+
+
+  const db =
+    getFirestore(app);
+
+
+  const auth =
+    getAuth(app);
+
+
+  const provider =
+    new GoogleAuthProvider();
 
 
   // =========================================
-  // CONTRASEÑA DEL ADMINISTRADOR
+  // ELEMENTOS DE LA PÁGINA
   // =========================================
 
-  const CLAVE_ADMIN = "examens1mulacion";
+  const login =
+    document.getElementById("login");
+
+  const panel =
+    document.getElementById("panel");
+
+  const mensaje =
+    document.getElementById("mensaje");
+
+  const usuario =
+    document.getElementById("usuario");
+
+  const resultados =
+    document.getElementById("resultados");
 
 
   // =========================================
-  // ENTRAR AL PANEL
+  // INICIAR SESIÓN CON GOOGLE
   // =========================================
 
-  window.entrar = function() {
+  document
+    .getElementById("btnGoogle")
+    .addEventListener("click", async () => {
 
-    const clave =
-      document.getElementById("clave").value;
+      mensaje.textContent =
+        "Iniciando sesión...";
+
+      try {
+
+        await signInWithPopup(
+          auth,
+          provider
+        );
+
+      } catch (error) {
+
+        console.error(
+          "Error al iniciar sesión:",
+          error
+        );
+
+        mensaje.textContent =
+          "No se pudo iniciar sesión.";
+
+      }
+
+    });
 
 
-    if (clave === CLAVE_ADMIN) {
+  // =========================================
+  // COMPROBAR USUARIO
+  // =========================================
 
-      document.getElementById("login").style.display =
-        "none";
+  onAuthStateChanged(
+    auth,
+    async (user) => {
 
-      document.getElementById("panel").style.display =
-        "block";
+      if (user) {
 
-      cargarResultados();
+        login.style.display =
+          "none";
 
-    } else {
+        panel.style.display =
+          "block";
 
-      document.getElementById("mensaje").textContent =
-        "Contraseña incorrecta.";
+
+        usuario.textContent =
+          "Administrador: " +
+          user.email;
+
+
+        await cargarResultados();
+
+
+      } else {
+
+        login.style.display =
+          "block";
+
+        panel.style.display =
+          "none";
+
+      }
 
     }
-
-  };
+  );
 
 
   // =========================================
   // CERRAR SESIÓN
   // =========================================
 
-  window.cerrarSesion = function() {
+  document
+    .getElementById("btnCerrar")
+    .addEventListener("click", async () => {
 
-    document.getElementById("panel").style.display =
-      "none";
+      await signOut(auth);
 
-    document.getElementById("login").style.display =
-      "block";
+    });
 
-    document.getElementById("clave").value =
-      "";
 
-  };
+  // =========================================
+  // ACTUALIZAR RESULTADOS
+  // =========================================
+
+  document
+    .getElementById("btnActualizar")
+    .addEventListener(
+      "click",
+      cargarResultados
+    );
 
 
   // =========================================
   // CARGAR RESULTADOS
   // =========================================
 
-  window.cargarResultados = async function() {
+  async function cargarResultados() {
 
-    const contenedor =
-      document.getElementById("resultados");
-
-    contenedor.innerHTML =
+    resultados.innerHTML =
       "Cargando resultados...";
 
 
@@ -259,13 +338,16 @@
 
       const consulta =
         await getDocs(
-          collection(db, "resultados")
+          collection(
+            db,
+            "resultados"
+          )
         );
 
 
       if (consulta.empty) {
 
-        contenedor.innerHTML =
+        resultados.innerHTML =
           "<p>No hay resultados todavía.</p>";
 
         return;
@@ -292,78 +374,96 @@
       `;
 
 
-      consulta.forEach((documento) => {
+      consulta.forEach(
+        (documento) => {
 
-        const datos =
-          documento.data();
-
-
-        const matematicas =
-          datos.matematicas || 0;
+          const datos =
+            documento.data();
 
 
-        const totalMatematicas =
-          datos.totalMatematicas || 0;
+          const matematicas =
+            datos.matematicas || 0;
 
 
-        const espanol =
-          datos.espanol || 0;
+          const totalMatematicas =
+            datos.totalMatematicas || 0;
 
 
-        const totalEspanol =
-          datos.totalEspanol || 0;
+          const espanol =
+            datos.espanol || 0;
 
 
-        const porcentajeMatematicas =
-          totalMatematicas > 0
-          ? (matematicas / totalMatematicas) * 100
-          : 0;
+          const totalEspanol =
+            datos.totalEspanol || 0;
 
 
-        const porcentajeEspanol =
-          totalEspanol > 0
-          ? (espanol / totalEspanol) * 100
-          : 0;
+          const porcentajeMatematicas =
+            totalMatematicas > 0
+            ? (
+                matematicas /
+                totalMatematicas
+              ) * 100
+            : 0;
 
 
-        const promedio =
-          (porcentajeMatematicas +
-           porcentajeEspanol) / 2;
+          const porcentajeEspanol =
+            totalEspanol > 0
+            ? (
+                espanol /
+                totalEspanol
+              ) * 100
+            : 0;
 
 
-        html += `
-
-          <tr>
-
-            <td>
-              ${datos.nombre || "Sin nombre"}
-            </td>
-
-            <td>
-              ${matematicas}/${totalMatematicas}
-              (${porcentajeMatematicas.toFixed(0)}%)
-            </td>
-
-            <td>
-              ${espanol}/${totalEspanol}
-              (${porcentajeEspanol.toFixed(0)}%)
-            </td>
-
-            <td>
-              ${promedio.toFixed(0)}%
-            </td>
-
-          </tr>
-
-        `;
-
-      });
+          const promedio =
+            (
+              porcentajeMatematicas +
+              porcentajeEspanol
+            ) / 2;
 
 
-      html += "</table>";
+          html += `
+
+            <tr>
+
+              <td>
+                ${
+                  datos.nombre ||
+                  "Sin nombre"
+                }
+              </td>
+
+              <td>
+                ${matematicas}/
+                ${totalMatematicas}
+                <br>
+                (${porcentajeMatematicas.toFixed(0)}%)
+              </td>
+
+              <td>
+                ${espanol}/
+                ${totalEspanol}
+                <br>
+                (${porcentajeEspanol.toFixed(0)}%)
+              </td>
+
+              <td>
+                ${promedio.toFixed(0)}%
+              </td>
+
+            </tr>
+
+          `;
+
+        }
+      );
 
 
-      contenedor.innerHTML =
+      html +=
+        "</table>";
+
+
+      resultados.innerHTML =
         html;
 
 
@@ -375,12 +475,12 @@
       );
 
 
-      contenedor.innerHTML =
+      resultados.innerHTML =
         "<p>No se pudieron cargar los resultados.</p>";
 
     }
 
-  };
+  }
 
 </script>
 
