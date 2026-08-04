@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Panel de Administrador - Examen de Ingreso</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    h2 {
+      color: #444;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 6px;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    #panel {
+      display: none;
+    }
+
+    #mensaje {
+      text-align: center;
+      margin-top: 15px;
+      color: red;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background: #f0f0f0;
+    }
+
+    .cerrar {
+      background: #dc2626;
+      margin-bottom: 20px;
+    }
+
+    .cerrar:hover {
+      background: #b91c1c;
+    }
+
+    @media (max-width: 700px) {
+
+      .contenedor {
+        padding: 15px;
+      }
+
+      table {
+        font-size: 12px;
+      }
+
+      th, td {
+        padding: 6px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+  <div id="login">
+
+    <h1>Panel de Administrador</h1>
+
+    <h2>Examen de Ingreso</h2>
+
+    <input
+      type="password"
+      id="clave"
+      placeholder="Introduce la contraseña"
+    >
+
+    <button onclick="entrar()">
+      Entrar
+    </button>
+
+    <p id="mensaje"></p>
+
+  </div>
+
+
+  <div id="panel">
+
+    <h1>Resultados del Examen de Ingreso</h1>
+
+    <button
+      class="cerrar"
+      onclick="cerrarSesion()"
+    >
+      Cerrar sesión
+    </button>
+
+    <button onclick="cargarResultados()">
+      Actualizar resultados
+    </button>
+
+    <div id="resultados">
+      Cargando resultados...
+    </div>
+
+  </div>
+
+</div>
+
+
+<script type="module">
+
+  import { initializeApp }
+  from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+
+  import {
+    getFirestore,
+    collection,
+    getDocs
+  }
+  from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAxv_ZFMYvbwHWtQhLYf7ZlhnyyOFOB05w",
+    authDomain: "examen-11a7c.firebaseapp.com",
+    projectId: "examen-11a7c",
+    storageBucket: "examen-11a7c.firebasestorage.app",
+    messagingSenderId: "1075495431638",
+    appId: "1:1075495431638:web:341f1cb00f5df4ec520877"
+  };
+
+
+  const app = initializeApp(firebaseConfig);
+
+  const db = getFirestore(app);
+
+
+  // =========================================
+  // CONTRASEÑA DEL ADMINISTRADOR
+  // =========================================
+
+  const CLAVE_ADMIN = "examens1mulacion";
+
+
+  // =========================================
+  // ENTRAR AL PANEL
+  // =========================================
+
+  window.entrar = function() {
+
+    const clave =
+      document.getElementById("clave").value;
+
+
+    if (clave === CLAVE_ADMIN) {
+
+      document.getElementById("login").style.display =
+        "none";
+
+      document.getElementById("panel").style.display =
+        "block";
+
+      cargarResultados();
+
+    } else {
+
+      document.getElementById("mensaje").textContent =
+        "Contraseña incorrecta.";
+
+    }
+
+  };
+
+
+  // =========================================
+  // CERRAR SESIÓN
+  // =========================================
+
+  window.cerrarSesion = function() {
+
+    document.getElementById("panel").style.display =
+      "none";
+
+    document.getElementById("login").style.display =
+      "block";
+
+    document.getElementById("clave").value =
+      "";
+
+  };
+
+
+  // =========================================
+  // CARGAR RESULTADOS
+  // =========================================
+
+  window.cargarResultados = async function() {
+
+    const contenedor =
+      document.getElementById("resultados");
+
+    contenedor.innerHTML =
+      "Cargando resultados...";
+
+
+    try {
+
+      const consulta =
+        await getDocs(
+          collection(db, "resultados")
+        );
+
+
+      if (consulta.empty) {
+
+        contenedor.innerHTML =
+          "<p>No hay resultados todavía.</p>";
+
+        return;
+
+      }
+
+
+      let html = `
+
+        <table>
+
+          <tr>
+
+            <th>Alumno</th>
+
+            <th>Matemáticas</th>
+
+            <th>Español</th>
+
+            <th>Promedio</th>
+
+          </tr>
+
+      `;
+
+
+      consulta.forEach((documento) => {
+
+        const datos =
+          documento.data();
+
+
+        const matematicas =
+          datos.matematicas || 0;
+
+
+        const totalMatematicas =
+          datos.totalMatematicas || 0;
+
+
+        const espanol =
+          datos.espanol || 0;
+
+
+        const totalEspanol =
+          datos.totalEspanol || 0;
+
+
+        const porcentajeMatematicas =
+          totalMatematicas > 0
+          ? (matematicas / totalMatematicas) * 100
+          : 0;
+
+
+        const porcentajeEspanol =
+          totalEspanol > 0
+          ? (espanol / totalEspanol) * 100
+          : 0;
+
+
+        const promedio =
+          (porcentajeMatematicas +
+           porcentajeEspanol) / 2;
+
+
+        html += `
+
+          <tr>
+
+            <td>
+              ${datos.nombre || "Sin nombre"}
+            </td>
+
+            <td>
+              ${matematicas}/${totalMatematicas}
+              (${porcentajeMatematicas.toFixed(0)}%)
+            </td>
+
+            <td>
+              ${espanol}/${totalEspanol}
+              (${porcentajeEspanol.toFixed(0)}%)
+            </td>
+
+            <td>
+              ${promedio.toFixed(0)}%
+            </td>
+
+          </tr>
+
+        `;
+
+      });
+
+
+      html += "</table>";
+
+
+      contenedor.innerHTML =
+        html;
+
+
+    } catch (error) {
+
+      console.error(
+        "Error al cargar resultados:",
+        error
+      );
+
+
+      contenedor.innerHTML =
+        "<p>No se pudieron cargar los resultados.</p>";
+
+    }
+
+  };
+
+</script>
+
+</body>
+</html>
