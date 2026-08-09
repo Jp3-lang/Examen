@@ -250,6 +250,10 @@ function entregarMatematicas() {
 
   mostrarPreguntasEspanol();
   mostrarPantalla("espanol");
+  window.scrollTo({
+  top: 0,
+  behavior: "smooth"
+});
   iniciarTemporizador(TIEMPO_ESPANOL, "timerEspanol", entregarEspanol);
 }
 
