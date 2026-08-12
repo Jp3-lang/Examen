@@ -1,0 +1,3852 @@
+[
+  {
+    "id": "ESP-0001",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0002",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0003",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0004",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0005",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0006",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0007",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0008",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0009",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0010",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0011",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0012",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0013",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0014",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0015",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0016",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0017",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0018",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0019",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0020",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0021",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0022",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0023",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0024",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0025",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0026",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0027",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0028",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0029",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0030",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0031",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0032",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0033",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0034",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0035",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0036",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0037",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0038",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0039",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0040",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0041",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0042",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0043",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0044",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0045",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0046",
+    "tema": "Ortografía",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra está escrita correctamente?",
+    "opciones": [
+      "había",
+      "avia",
+      "habia",
+      "havía"
+    ],
+    "correcta": 0,
+    "explicacion": "Correcta."
+  },
+  {
+    "id": "ESP-0047",
+    "tema": "Acentuación",
+    "nivel": "Medio",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "reloj",
+      "papel",
+      "cancion"
+    ],
+    "correcta": 0,
+    "explicacion": "Esdrújula."
+  },
+  {
+    "id": "ESP-0048",
+    "tema": "Puntuación",
+    "nivel": "Medio",
+    "pregunta": "Selecciona la oración correctamente escrita.",
+    "opciones": [
+      "Juan compró pan, leche y queso.",
+      "Juan, compró pan.",
+      "Juan compró, pan.",
+      "Juan compró pan leche."
+    ],
+    "correcta": 0,
+    "explicacion": "Comas."
+  },
+  {
+    "id": "ESP-0049",
+    "tema": "Sinónimos",
+    "nivel": "Medio",
+    "pregunta": "Sinónimo de 'rápido'.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "quieto",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinónimo."
+  },
+  {
+    "id": "ESP-0050",
+    "tema": "Antónimos",
+    "nivel": "Medio",
+    "pregunta": "Antónimo de 'valiente'.",
+    "opciones": [
+      "cobarde",
+      "audaz",
+      "fuerte",
+      "amable"
+    ],
+    "correcta": 0,
+    "explicacion": "Antónimo."
+  },
+  {
+    "id": "ESP-0051",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración usa correctamente la coma para separar una enumeración?",
+    "pregunta": "¿Cuál oración usa correctamente la coma para separar una enumeración?",
+    "opciones": [
+      "Compré pan, leche, huevos y fruta.",
+      "Compré pan leche, huevos y fruta.",
+      "Compré pan, leche huevos y fruta."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Coma"
+  },
+  {
+    "id": "ESP-0052",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración está correctamente puntuada?",
+    "pregunta": "¿Cuál oración está correctamente puntuada?",
+    "opciones": [
+      "Carlos, ven a cenar.",
+      "Carlos ven, a cenar.",
+      "Carlos ven a cenar,"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Coma vocativa"
+  },
+  {
+    "id": "ESP-0053",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción presenta correctamente el uso del punto?",
+    "pregunta": "¿Cuál opción presenta correctamente el uso del punto?",
+    "opciones": [
+      "La clase terminó. Los alumnos salieron.",
+      "La clase terminó los alumnos. salieron.",
+      "La clase. terminó los alumnos salieron."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Punto"
+  },
+  {
+    "id": "ESP-0054",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración está correctamente escrita?",
+    "pregunta": "¿Cuál oración está correctamente escrita?",
+    "opciones": [
+      "¿Dónde dejaste mi cuaderno?",
+      "¿Dónde dejaste mi cuaderno.",
+      "Dónde dejaste mi cuaderno?"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogación"
+  },
+  {
+    "id": "ESP-0055",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración está correctamente puntuada?",
+    "pregunta": "¿Cuál oración está correctamente puntuada?",
+    "opciones": [
+      "¡Qué sorpresa tan agradable!",
+      "¡Que sorpresa tan agradable!",
+      "Qué sorpresa tan agradable!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Exclamación"
+  },
+  {
+    "id": "ESP-0056",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción usa correctamente los dos puntos?",
+    "pregunta": "¿Cuál opción usa correctamente los dos puntos?",
+    "opciones": [
+      "Necesito tres cosas: lápiz, regla y borrador.",
+      "Necesito: tres cosas lápiz, regla y borrador.",
+      "Necesito tres cosas lápiz: regla y borrador."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dos puntos"
+  },
+  {
+    "id": "ESP-0057",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración utiliza correctamente el punto y coma?",
+    "pregunta": "¿Cuál oración utiliza correctamente el punto y coma?",
+    "opciones": [
+      "María estudió mucho; por eso obtuvo una buena calificación.",
+      "María estudió; mucho por eso obtuvo una buena calificación.",
+      "María; estudió mucho por eso obtuvo una buena calificación."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Punto y coma"
+  },
+  {
+    "id": "ESP-0058",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente acentuada?",
+    "pregunta": "¿Cuál palabra está correctamente acentuada?",
+    "opciones": [
+      "tambor",
+      "canción",
+      "pared"
+    ],
+    "correcta": 1,
+    "explicacion": "Respuesta correcta: opción B.",
+    "subtema": "Agudas"
+  },
+  {
+    "id": "ESP-0059",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "lápiz",
+      "lapiz",
+      "lápíz"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Graves"
+  },
+  {
+    "id": "ESP-0060",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra es esdrújula?",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "teléfono",
+      "pared",
+      "camión"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Esdrújulas"
+  },
+  {
+    "id": "ESP-0061",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra es sobresdrújula?",
+    "pregunta": "¿Cuál palabra es sobresdrújula?",
+    "opciones": [
+      "rápidamente",
+      "canción",
+      "árbol"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Sobresdrújulas"
+  },
+  {
+    "id": "ESP-0062",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración es correcta?",
+    "pregunta": "¿Cuál oración es correcta?",
+    "opciones": [
+      "Él compró el regalo.",
+      "El compró él regalo.",
+      "Él compró él regalo."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0063",
+    "tema": "Acentuación",
+    "nivel": "Completa correctamente: 'Quiero ___, pero no tengo ___ tiempo'.",
+    "pregunta": "Completa correctamente: 'Quiero ___, pero no tengo ___ tiempo'.",
+    "opciones": [
+      "más / más",
+      "mas / más",
+      "más / mas"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0064",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración está correctamente escrita?",
+    "pregunta": "¿Cuál oración está correctamente escrita?",
+    "opciones": [
+      "No sé qué quieres.",
+      "No sé que quieres.",
+      "No se qué quieres."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogativos"
+  },
+  {
+    "id": "ESP-0065",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál opción está correctamente escrita según la ortografía actual?",
+    "pregunta": "¿Cuál opción está correctamente escrita según la ortografía actual?",
+    "opciones": [
+      "Ese libro es mío.",
+      "Ése libro es mío.",
+      "Ese libro és mío."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Demostrativos"
+  },
+  {
+    "id": "ESP-0066",
+    "tema": "Diptongo",
+    "nivel": "¿Cuál palabra contiene un diptongo?",
+    "pregunta": "¿Cuál palabra contiene un diptongo?",
+    "opciones": [
+      "cuidado",
+      "país",
+      "poeta"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0067",
+    "tema": "Diptongo",
+    "nivel": "¿Cuál palabra contiene un diptongo formado por una vocal abierta y una cerrada átona?",
+    "pregunta": "¿Cuál palabra contiene un diptongo formado por una vocal abierta y una cerrada átona?",
+    "opciones": [
+      "aire",
+      "maíz",
+      "río"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0068",
+    "tema": "Hiato",
+    "nivel": "¿Cuál palabra contiene un hiato?",
+    "pregunta": "¿Cuál palabra contiene un hiato?",
+    "opciones": [
+      "maíz",
+      "aire",
+      "cuidado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0069",
+    "tema": "Hiato",
+    "nivel": "¿Cuál palabra contiene hiato entre dos vocales abiertas?",
+    "pregunta": "¿Cuál palabra contiene hiato entre dos vocales abiertas?",
+    "opciones": [
+      "teatro",
+      "cielo",
+      "puerta"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocales abiertas"
+  },
+  {
+    "id": "ESP-0070",
+    "tema": "Triptongo",
+    "nivel": "¿Cuál palabra contiene un triptongo?",
+    "pregunta": "¿Cuál palabra contiene un triptongo?",
+    "opciones": [
+      "buey",
+      "país",
+      "poeta"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0071",
+    "tema": "Sinónimos",
+    "nivel": "¿Cuál es sinónimo de 'alegre'?",
+    "pregunta": "¿Cuál es sinónimo de 'alegre'?",
+    "opciones": [
+      "feliz",
+      "triste",
+      "enojado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0072",
+    "tema": "Sinónimos",
+    "nivel": "En la oración 'El alumno fue perseverante', ¿qué palabra puede sustituir a perseverante?",
+    "pregunta": "En la oración 'El alumno fue perseverante', ¿qué palabra puede sustituir a perseverante?",
+    "opciones": [
+      "constante",
+      "inconstante",
+      "descuidado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0073",
+    "tema": "Sinónimos",
+    "nivel": "¿Cuál es sinónimo de 'rápido'?",
+    "pregunta": "¿Cuál es sinónimo de 'rápido'?",
+    "opciones": [
+      "veloz",
+      "lento",
+      "pesado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0074",
+    "tema": "Sinónimos",
+    "nivel": "En 'La respuesta fue acertada', ¿cuál es un sinónimo de acertada?",
+    "pregunta": "En 'La respuesta fue acertada', ¿cuál es un sinónimo de acertada?",
+    "opciones": [
+      "correcta",
+      "equivocada",
+      "confusa"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0075",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es antónimo de 'valiente'?",
+    "pregunta": "¿Cuál es antónimo de 'valiente'?",
+    "opciones": [
+      "cobarde",
+      "fuerte",
+      "decidido"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0076",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es antónimo de 'amplio'?",
+    "pregunta": "¿Cuál es antónimo de 'amplio'?",
+    "opciones": [
+      "estrecho",
+      "grande",
+      "extenso"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0077",
+    "tema": "Antónimos",
+    "nivel": "En 'El problema era sencillo', ¿cuál es el antónimo de sencillo?",
+    "pregunta": "En 'El problema era sencillo', ¿cuál es el antónimo de sencillo?",
+    "opciones": [
+      "complicado",
+      "fácil",
+      "simple"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0078",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es el antónimo de 'optimista'?",
+    "pregunta": "¿Cuál es el antónimo de 'optimista'?",
+    "opciones": [
+      "pesimista",
+      "alegre",
+      "esperanzado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0079",
+    "tema": "Homófonos",
+    "nivel": "Completa: Espero que él ___ terminado el trabajo.",
+    "pregunta": "Completa: Espero que él ___ terminado el trabajo.",
+    "opciones": [
+      "haya",
+      "halla",
+      "aya"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0080",
+    "tema": "Homófonos",
+    "nivel": "Completa: El detective logró ___ la respuesta.",
+    "pregunta": "Completa: El detective logró ___ la respuesta.",
+    "opciones": [
+      "hallar",
+      "ayar",
+      "allar"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0081",
+    "tema": "Homófonos",
+    "nivel": "Completa: La ___ del jardín estaba muy alta.",
+    "pregunta": "Completa: La ___ del jardín estaba muy alta.",
+    "opciones": [
+      "hierba",
+      "hierva",
+      "ierba"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0082",
+    "tema": "Homófonos",
+    "nivel": "Completa: Espero que el agua ___ pronto.",
+    "pregunta": "Completa: Espero que el agua ___ pronto.",
+    "opciones": [
+      "hierva",
+      "hierba",
+      "ierba"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0083",
+    "tema": "Homónimos",
+    "nivel": "¿Cuál palabra puede tener significados diferentes según el contexto?",
+    "pregunta": "¿Cuál palabra puede tener significados diferentes según el contexto?",
+    "opciones": [
+      "banco",
+      "mesa",
+      "lápiz"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Significado"
+  },
+  {
+    "id": "ESP-0084",
+    "tema": "Homónimos",
+    "nivel": "En 'El gato está en el tejado' y 'Compré un gato para levantar el auto', la palabra gato es:",
+    "pregunta": "En 'El gato está en el tejado' y 'Compré un gato para levantar el auto', la palabra gato es:",
+    "opciones": [
+      "homónima",
+      "antónima",
+      "sinónima"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Significado"
+  },
+  {
+    "id": "ESP-0085",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un sustantivo?",
+    "pregunta": "¿Cuál palabra es un sustantivo?",
+    "opciones": [
+      "montaña",
+      "correr",
+      "rápidamente"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Sustantivo"
+  },
+  {
+    "id": "ESP-0086",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un adjetivo?",
+    "pregunta": "¿Cuál palabra es un adjetivo?",
+    "opciones": [
+      "brillante",
+      "correr",
+      "ayer"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adjetivo"
+  },
+  {
+    "id": "ESP-0087",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un verbo?",
+    "pregunta": "¿Cuál palabra es un verbo?",
+    "opciones": [
+      "escribir",
+      "escritura",
+      "escrito"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Verbo"
+  },
+  {
+    "id": "ESP-0088",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un adverbio?",
+    "pregunta": "¿Cuál palabra es un adverbio?",
+    "opciones": [
+      "cuidadosamente",
+      "cuidadoso",
+      "cuidado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adverbio"
+  },
+  {
+    "id": "ESP-0089",
+    "tema": "Pronombres",
+    "nivel": "¿Cuál palabra es un pronombre personal?",
+    "pregunta": "¿Cuál palabra es un pronombre personal?",
+    "opciones": [
+      "nosotros",
+      "casa",
+      "azul"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Personales"
+  },
+  {
+    "id": "ESP-0090",
+    "tema": "Pronombres",
+    "nivel": "¿Cuál palabra funciona como pronombre demostrativo?",
+    "pregunta": "¿Cuál palabra funciona como pronombre demostrativo?",
+    "opciones": [
+      "aquello",
+      "mesa",
+      "correr"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Demostrativos"
+  },
+  {
+    "id": "ESP-0091",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál es una oración interrogativa?",
+    "pregunta": "¿Cuál es una oración interrogativa?",
+    "opciones": [
+      "¿Cuándo empieza la clase?",
+      "La clase empieza temprano.",
+      "¡Qué interesante!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogativa"
+  },
+  {
+    "id": "ESP-0092",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál es una oración exclamativa?",
+    "pregunta": "¿Cuál es una oración exclamativa?",
+    "opciones": [
+      "¡Qué hermoso paisaje!",
+      "¿Dónde está el paisaje?",
+      "El paisaje es hermoso."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Exclamativa"
+  },
+  {
+    "id": "ESP-0093",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa una orden?",
+    "pregunta": "¿Cuál oración expresa una orden?",
+    "opciones": [
+      "Cierra la puerta.",
+      "¿Cerraste la puerta?",
+      "La puerta está cerrada."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Imperativa"
+  },
+  {
+    "id": "ESP-0094",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa duda?",
+    "pregunta": "¿Cuál oración expresa duda?",
+    "opciones": [
+      "Tal vez lleguemos temprano.",
+      "Llegaremos temprano.",
+      "¡Llegamos temprano!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dubitativa"
+  },
+  {
+    "id": "ESP-0095",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'Los alumnos de sexto resolvieron el examen', ¿cuál es el sujeto?",
+    "pregunta": "En 'Los alumnos de sexto resolvieron el examen', ¿cuál es el sujeto?",
+    "opciones": [
+      "Los alumnos de sexto",
+      "resolvieron el examen",
+      "el examen"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0096",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'Mi hermana preparó una deliciosa cena', ¿cuál es el predicado?",
+    "pregunta": "En 'Mi hermana preparó una deliciosa cena', ¿cuál es el predicado?",
+    "opciones": [
+      "Mi hermana",
+      "preparó una deliciosa cena",
+      "una deliciosa cena"
+    ],
+    "correcta": 1,
+    "explicacion": "Respuesta correcta: opción B.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0097",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál oración está en presente?",
+    "pregunta": "¿Cuál oración está en presente?",
+    "opciones": [
+      "Los niños juegan en el parque.",
+      "Los niños jugaron en el parque.",
+      "Los niños jugarán en el parque."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Presente"
+  },
+  {
+    "id": "ESP-0098",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál oración está en futuro?",
+    "pregunta": "¿Cuál oración está en futuro?",
+    "opciones": [
+      "Mañana viajaremos a Campeche.",
+      "Ayer viajamos a Campeche.",
+      "Ahora viajamos a Campeche."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Futuro"
+  },
+  {
+    "id": "ESP-0099",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál oración está en pretérito?",
+    "pregunta": "¿Cuál oración está en pretérito?",
+    "opciones": [
+      "Ayer terminé mi tarea.",
+      "Hoy termino mi tarea.",
+      "Mañana terminaré mi tarea."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pasado"
+  },
+  {
+    "id": "ESP-0100",
+    "tema": "Conjugación",
+    "nivel": "Completa: 'Si tú ___ temprano, alcanzaremos el autobús'.",
+    "pregunta": "Completa: 'Si tú ___ temprano, alcanzaremos el autobús'.",
+    "opciones": [
+      "llegas",
+      "llegaste",
+      "llegarás"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Verbos"
+  },
+  {
+    "id": "ESP-0101",
+    "tema": "Conectores",
+    "nivel": "Completa: 'No salió a jugar ___ estaba enfermo'.",
+    "pregunta": "Completa: 'No salió a jugar ___ estaba enfermo'.",
+    "opciones": [
+      "porque",
+      "sin embargo",
+      "además"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Causa"
+  },
+  {
+    "id": "ESP-0102",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Estudió para el examen; ___, obtuvo una buena calificación'.",
+    "pregunta": "Completa: 'Estudió para el examen; ___, obtuvo una buena calificación'.",
+    "opciones": [
+      "por lo tanto",
+      "aunque",
+      "sin embargo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Consecuencia"
+  },
+  {
+    "id": "ESP-0103",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Quería ir al parque; ___, comenzó a llover'.",
+    "pregunta": "Completa: 'Quería ir al parque; ___, comenzó a llover'.",
+    "opciones": [
+      "sin embargo",
+      "por eso",
+      "además"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contraste"
+  },
+  {
+    "id": "ESP-0104",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'señor'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'señor'?",
+    "opciones": [
+      "Sr.",
+      "Sñ.",
+      "Señ."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0105",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'página'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'página'?",
+    "opciones": [
+      "pág.",
+      "pag.",
+      "pág"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0106",
+    "tema": "Siglas",
+    "nivel": "¿Qué significan las siglas SEP?",
+    "pregunta": "¿Qué significan las siglas SEP?",
+    "opciones": [
+      "Secretaría de Educación Pública",
+      "Sistema Escolar Primario",
+      "Servicio Educativo Particular"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0107",
+    "tema": "Siglas",
+    "nivel": "¿Qué significan las siglas ONU?",
+    "pregunta": "¿Qué significan las siglas ONU?",
+    "opciones": [
+      "Organización de las Naciones Unidas",
+      "Organización Nacional Universal",
+      "Oficina Nacional Unificada"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0108",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "proteger",
+      "protejer",
+      "protejér"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de g/j"
+  },
+  {
+    "id": "ESP-0109",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "desarrollar",
+      "desarroyar",
+      "desarollar"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de ll/y"
+  },
+  {
+    "id": "ESP-0110",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál opción está correctamente escrita?",
+    "pregunta": "¿Cuál opción está correctamente escrita?",
+    "opciones": [
+      "hervir",
+      "ervir",
+      "hervír"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de h"
+  },
+  {
+    "id": "ESP-0111",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "decisión",
+      "desición",
+      "decición"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de c/s/z"
+  },
+  {
+    "id": "ESP-0112",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra lleva tilde correctamente?",
+    "pregunta": "¿Cuál palabra lleva tilde correctamente?",
+    "opciones": [
+      "después",
+      "despues",
+      "despúes"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Diptongo"
+  },
+  {
+    "id": "ESP-0113",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra lleva tilde por formar hiato con vocal cerrada tónica?",
+    "pregunta": "¿Cuál palabra lleva tilde por formar hiato con vocal cerrada tónica?",
+    "opciones": [
+      "país",
+      "aire",
+      "tierra"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Hiato"
+  },
+  {
+    "id": "ESP-0114",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción utiliza correctamente las comillas?",
+    "pregunta": "¿Cuál opción utiliza correctamente las comillas?",
+    "opciones": [
+      "El maestro dijo: «Estudien para el examen».",
+      "El maestro dijo «:Estudien para el examen».",
+      "El maestro «dijo: Estudien» para el examen."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Comillas"
+  },
+  {
+    "id": "ESP-0115",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración usa correctamente los paréntesis?",
+    "pregunta": "¿Cuál oración usa correctamente los paréntesis?",
+    "opciones": [
+      "Miguel Hidalgo (1753-1811) fue un personaje histórico.",
+      "Miguel Hidalgo 1753-1811 (fue un personaje histórico).",
+      "Miguel Hidalgo (1753-1811 fue un personaje histórico."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Paréntesis"
+  },
+  {
+    "id": "ESP-0116",
+    "tema": "Sinónimos",
+    "nivel": "En 'La explicación fue clara', ¿cuál es un sinónimo de clara?",
+    "pregunta": "En 'La explicación fue clara', ¿cuál es un sinónimo de clara?",
+    "opciones": [
+      "comprensible",
+      "confusa",
+      "oscura"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0117",
+    "tema": "Antónimos",
+    "nivel": "En 'El camino era accesible', ¿cuál es el antónimo de accesible?",
+    "pregunta": "En 'El camino era accesible', ¿cuál es el antónimo de accesible?",
+    "opciones": [
+      "inaccesible",
+      "cercano",
+      "amplio"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0118",
+    "tema": "Homófonos",
+    "nivel": "Completa: El cazador observó un ___ en el bosque.",
+    "pregunta": "Completa: El cazador observó un ___ en el bosque.",
+    "opciones": [
+      "ciervo",
+      "siervo",
+      "cervo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0119",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un artículo definido?",
+    "pregunta": "¿Cuál palabra es un artículo definido?",
+    "opciones": [
+      "la",
+      "una",
+      "ellos"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Artículo"
+  },
+  {
+    "id": "ESP-0120",
+    "tema": "Categorías gramaticales",
+    "nivel": "En 'La casa grande está vacía', ¿cuál es el adjetivo?",
+    "pregunta": "En 'La casa grande está vacía', ¿cuál es el adjetivo?",
+    "opciones": [
+      "grande",
+      "casa",
+      "está"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adjetivo"
+  },
+  {
+    "id": "ESP-0121",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Primero lavó las verduras; ___, las cortó'.",
+    "pregunta": "Completa: 'Primero lavó las verduras; ___, las cortó'.",
+    "opciones": [
+      "después",
+      "sin embargo",
+      "porque"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Secuencia"
+  },
+  {
+    "id": "ESP-0122",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Terminó la tarea y, ___, ordenó su habitación'.",
+    "pregunta": "Completa: 'Terminó la tarea y, ___, ordenó su habitación'.",
+    "opciones": [
+      "además",
+      "sin embargo",
+      "por eso"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adición"
+  },
+  {
+    "id": "ESP-0123",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál es una oración enunciativa?",
+    "pregunta": "¿Cuál es una oración enunciativa?",
+    "opciones": [
+      "La Tierra gira alrededor del Sol.",
+      "¿Gira la Tierra alrededor del Sol?",
+      "¡Qué hermoso planeta!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Enunciativa"
+  },
+  {
+    "id": "ESP-0124",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'Llegamos temprano a la escuela', ¿cuál es el sujeto tácito?",
+    "pregunta": "En 'Llegamos temprano a la escuela', ¿cuál es el sujeto tácito?",
+    "opciones": [
+      "Nosotros",
+      "Ellos",
+      "Ustedes"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Sujeto tácito"
+  },
+  {
+    "id": "ESP-0125",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál verbo está en pretérito imperfecto?",
+    "pregunta": "¿Cuál verbo está en pretérito imperfecto?",
+    "opciones": [
+      "jugaba",
+      "jugué",
+      "jugaré"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pretérito imperfecto"
+  },
+  {
+    "id": "ESP-0126",
+    "tema": "Conjugación",
+    "nivel": "Completa: 'Espero que ella ___ la verdad'.",
+    "pregunta": "Completa: 'Espero que ella ___ la verdad'.",
+    "opciones": [
+      "diga",
+      "dijo",
+      "dirá"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Modo subjuntivo"
+  },
+  {
+    "id": "ESP-0127",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "examen",
+      "ecsamen",
+      "exámen"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Palabras con x"
+  },
+  {
+    "id": "ESP-0128",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración está correctamente escrita?",
+    "pregunta": "¿Cuál oración está correctamente escrita?",
+    "opciones": [
+      "No sé cómo resolverlo.",
+      "No sé como resolverlo.",
+      "No se cómo resolverlo."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Palabras interrogativas"
+  },
+  {
+    "id": "ESP-0129",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción utiliza correctamente los puntos suspensivos?",
+    "pregunta": "¿Cuál opción utiliza correctamente los puntos suspensivos?",
+    "opciones": [
+      "Tal vez mañana... no estoy seguro.",
+      "Tal vez... mañana... no estoy seguro...",
+      "Tal vez, ... mañana no estoy seguro."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Puntos suspensivos"
+  },
+  {
+    "id": "ESP-0130",
+    "tema": "Sinónimos",
+    "nivel": "¿Cuál es sinónimo de 'comenzar'?",
+    "pregunta": "¿Cuál es sinónimo de 'comenzar'?",
+    "opciones": [
+      "iniciar",
+      "terminar",
+      "detener"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0131",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es antónimo de 'permitir'?",
+    "pregunta": "¿Cuál es antónimo de 'permitir'?",
+    "opciones": [
+      "prohibir",
+      "aceptar",
+      "autorizar"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0132",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál oración está escrita correctamente?",
+    "pregunta": "¿Cuál oración está escrita correctamente?",
+    "opciones": [
+      "El abuelo vive en Veracruz.",
+      "El abuelo bive en Veracruz.",
+      "El abuelo vive en Beracruz."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de b/v"
+  },
+  {
+    "id": "ESP-0133",
+    "tema": "Ortografía",
+    "nivel": "Selecciona la opción correctamente escrita.",
+    "pregunta": "Selecciona la opción correctamente escrita.",
+    "opciones": [
+      "Ayer hubo una reunión.",
+      "Ayer uvo una reunión.",
+      "Ayer hubo una reuníon."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de h"
+  },
+  {
+    "id": "ESP-0134",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "precisión",
+      "presición",
+      "presición"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de c/s/z"
+  },
+  {
+    "id": "ESP-0135",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál oración utiliza correctamente las mayúsculas?",
+    "pregunta": "¿Cuál oración utiliza correctamente las mayúsculas?",
+    "opciones": [
+      "El lunes viajaremos a Mérida.",
+      "El Lunes viajaremos a Mérida.",
+      "El lunes viajaremos a mérida."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Mayúsculas"
+  },
+  {
+    "id": "ESP-0136",
+    "tema": "Ortografía",
+    "nivel": "Completa: Espero que ___ terminado la tarea.",
+    "pregunta": "Completa: Espero que ___ terminado la tarea.",
+    "opciones": [
+      "hayas",
+      "hallas",
+      "ayas"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Homófonos"
+  },
+  {
+    "id": "ESP-0137",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente acentuada?",
+    "pregunta": "¿Cuál palabra está correctamente acentuada?",
+    "opciones": [
+      "camión",
+      "camion",
+      "cámion"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Agudas"
+  },
+  {
+    "id": "ESP-0138",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "árbol",
+      "arbol",
+      "árból"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Graves"
+  },
+  {
+    "id": "ESP-0139",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál opción contiene una palabra esdrújula correctamente acentuada?",
+    "pregunta": "¿Cuál opción contiene una palabra esdrújula correctamente acentuada?",
+    "opciones": [
+      "música",
+      "musica",
+      "músíca"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Esdrújulas"
+  },
+  {
+    "id": "ESP-0140",
+    "tema": "Acentuación",
+    "nivel": "Selecciona la oración correcta.",
+    "pregunta": "Selecciona la oración correcta.",
+    "opciones": [
+      "Tú tienes tu cuaderno.",
+      "Tu tienes tú cuaderno.",
+      "Tú tienes tú cuaderno."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0141",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración está correctamente escrita?",
+    "pregunta": "¿Cuál oración está correctamente escrita?",
+    "opciones": [
+      "¿Qué hora es?",
+      "¿Que hora es?",
+      "¿Qué hora és?"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogativos"
+  },
+  {
+    "id": "ESP-0142",
+    "tema": "Diptongo",
+    "nivel": "¿Cuál palabra contiene un diptongo?",
+    "pregunta": "¿Cuál palabra contiene un diptongo?",
+    "opciones": [
+      "tierra",
+      "país",
+      "teatro"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0143",
+    "tema": "Hiato",
+    "nivel": "¿Cuál palabra contiene un hiato?",
+    "pregunta": "¿Cuál palabra contiene un hiato?",
+    "opciones": [
+      "aire",
+      "cuidado",
+      "país"
+    ],
+    "correcta": 2,
+    "explicacion": "Respuesta correcta: opción C.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0144",
+    "tema": "Triptongo",
+    "nivel": "¿Cuál palabra contiene un triptongo?",
+    "pregunta": "¿Cuál palabra contiene un triptongo?",
+    "opciones": [
+      "miau",
+      "país",
+      "teatro"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0145",
+    "tema": "Diptongo e hiato",
+    "nivel": "¿Cuál palabra tiene hiato por dos vocales abiertas?",
+    "pregunta": "¿Cuál palabra tiene hiato por dos vocales abiertas?",
+    "opciones": [
+      "poeta",
+      "cielo",
+      "ruido"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Clasificación"
+  },
+  {
+    "id": "ESP-0146",
+    "tema": "Puntuación",
+    "nivel": "Selecciona la oración correcta.",
+    "pregunta": "Selecciona la oración correcta.",
+    "opciones": [
+      "Pedro, Ana y Luis llegaron temprano.",
+      "Pedro Ana, y Luis llegaron temprano.",
+      "Pedro Ana y Luis, llegaron temprano."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Coma"
+  },
+  {
+    "id": "ESP-0147",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción usa correctamente los dos puntos?",
+    "pregunta": "¿Cuál opción usa correctamente los dos puntos?",
+    "opciones": [
+      "Llevé tres cosas: agua, comida y una linterna.",
+      "Llevé: tres cosas agua, comida y una linterna.",
+      "Llevé tres cosas agua: comida y una linterna."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dos puntos"
+  },
+  {
+    "id": "ESP-0148",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración utiliza correctamente el punto y coma?",
+    "pregunta": "¿Cuál oración utiliza correctamente el punto y coma?",
+    "opciones": [
+      "Terminó la lluvia; salimos a jugar.",
+      "Terminó; la lluvia salimos a jugar.",
+      "Terminó la lluvia salimos; a jugar."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Punto y coma"
+  },
+  {
+    "id": "ESP-0149",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción utiliza correctamente las comillas?",
+    "pregunta": "¿Cuál opción utiliza correctamente las comillas?",
+    "opciones": [
+      "Mi mamá dijo: «Llegaremos temprano».",
+      "Mi mamá dijo: Llegaremos «temprano».",
+      "Mi mamá «dijo»: llegaremos temprano."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Comillas"
+  },
+  {
+    "id": "ESP-0150",
+    "tema": "Sinónimos",
+    "nivel": "¿Cuál es sinónimo de 'enorme'?",
+    "pregunta": "¿Cuál es sinónimo de 'enorme'?",
+    "opciones": [
+      "gigantesco",
+      "pequeño",
+      "estrecho"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0151",
+    "tema": "Sinónimos",
+    "nivel": "En 'El alumno fue diligente', ¿qué palabra puede sustituir a diligente?",
+    "pregunta": "En 'El alumno fue diligente', ¿qué palabra puede sustituir a diligente?",
+    "opciones": [
+      "aplicado",
+      "descuidado",
+      "lento"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0152",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es antónimo de 'escaso'?",
+    "pregunta": "¿Cuál es antónimo de 'escaso'?",
+    "opciones": [
+      "abundante",
+      "pequeño",
+      "limitado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0153",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es el antónimo de 'optimista'?",
+    "pregunta": "¿Cuál es el antónimo de 'optimista'?",
+    "opciones": [
+      "pesimista",
+      "entusiasta",
+      "alegre"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0154",
+    "tema": "Homónimos",
+    "nivel": "¿Cuál par está formado por palabras homónimas?",
+    "pregunta": "¿Cuál par está formado por palabras homónimas?",
+    "opciones": [
+      "banco (asiento) / banco (institución)",
+      "casa / caza",
+      "vello / bello"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0155",
+    "tema": "Homófonos",
+    "nivel": "Completa: El cazador observó al ___ en el bosque.",
+    "pregunta": "Completa: El cazador observó al ___ en el bosque.",
+    "opciones": [
+      "ciervo",
+      "siervo",
+      "siervo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0156",
+    "tema": "Primitivas y derivadas",
+    "nivel": "¿Cuál palabra es derivada de 'pan'?",
+    "pregunta": "¿Cuál palabra es derivada de 'pan'?",
+    "opciones": [
+      "panadero",
+      "mesa",
+      "casa"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Formación"
+  },
+  {
+    "id": "ESP-0157",
+    "tema": "Primitivas y derivadas",
+    "nivel": "¿Cuál palabra es primitiva?",
+    "pregunta": "¿Cuál palabra es primitiva?",
+    "opciones": [
+      "flor",
+      "florero",
+      "florista"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Formación"
+  },
+  {
+    "id": "ESP-0158",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un sustantivo?",
+    "pregunta": "¿Cuál palabra es un sustantivo?",
+    "opciones": [
+      "montaña",
+      "correr",
+      "rápidamente"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Sustantivo"
+  },
+  {
+    "id": "ESP-0159",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra funciona como adjetivo?",
+    "pregunta": "¿Cuál palabra funciona como adjetivo?",
+    "opciones": [
+      "brillante",
+      "correr",
+      "ayer"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adjetivo"
+  },
+  {
+    "id": "ESP-0160",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un adverbio?",
+    "pregunta": "¿Cuál palabra es un adverbio?",
+    "opciones": [
+      "cuidadosamente",
+      "cuidadoso",
+      "cuidado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adverbio"
+  },
+  {
+    "id": "ESP-0161",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál es una oración interrogativa?",
+    "pregunta": "¿Cuál es una oración interrogativa?",
+    "opciones": [
+      "¿Cuándo comienza la clase?",
+      "La clase comienza temprano.",
+      "¡Qué interesante clase!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogativa"
+  },
+  {
+    "id": "ESP-0162",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál es una oración exclamativa?",
+    "pregunta": "¿Cuál es una oración exclamativa?",
+    "opciones": [
+      "¡Qué paisaje tan hermoso!",
+      "¿Dónde está el paisaje?",
+      "El paisaje es hermoso."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Exclamativa"
+  },
+  {
+    "id": "ESP-0163",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'Los estudiantes de sexto prepararon una exposición', ¿cuál es el sujeto?",
+    "pregunta": "En 'Los estudiantes de sexto prepararon una exposición', ¿cuál es el sujeto?",
+    "opciones": [
+      "Los estudiantes de sexto",
+      "prepararon una exposición",
+      "una exposición"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0164",
+    "tema": "Tiempos verbales",
+    "nivel": "¿En qué tiempo está 'habíamos terminado'?",
+    "pregunta": "¿En qué tiempo está 'habíamos terminado'?",
+    "opciones": [
+      "Pretérito pluscuamperfecto",
+      "Presente",
+      "Futuro"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pasado"
+  },
+  {
+    "id": "ESP-0165",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál verbo está en futuro?",
+    "pregunta": "¿Cuál verbo está en futuro?",
+    "opciones": [
+      "viajaremos",
+      "viajamos",
+      "viajábamos"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Futuro"
+  },
+  {
+    "id": "ESP-0166",
+    "tema": "Conjugación",
+    "nivel": "Selecciona la forma correcta: 'Si ellos ___ temprano, podrán ayudarnos'.",
+    "pregunta": "Selecciona la forma correcta: 'Si ellos ___ temprano, podrán ayudarnos'.",
+    "opciones": [
+      "llegan",
+      "llegarán",
+      "llegaron"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Verbos"
+  },
+  {
+    "id": "ESP-0167",
+    "tema": "Conectores",
+    "nivel": "¿Cuál conector expresa causa?",
+    "pregunta": "¿Cuál conector expresa causa?",
+    "opciones": [
+      "porque",
+      "sin embargo",
+      "aunque"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Causa"
+  },
+  {
+    "id": "ESP-0168",
+    "tema": "Conectores",
+    "nivel": "Selecciona el conector adecuado: 'Estudió mucho; ___, obtuvo una buena calificación'.",
+    "pregunta": "Selecciona el conector adecuado: 'Estudió mucho; ___, obtuvo una buena calificación'.",
+    "opciones": [
+      "por lo tanto",
+      "sin embargo",
+      "aunque"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Consecuencia"
+  },
+  {
+    "id": "ESP-0169",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'señora'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'señora'?",
+    "opciones": [
+      "Sra.",
+      "Sñ.",
+      "Sr."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0170",
+    "tema": "Siglas",
+    "nivel": "¿Qué significan las siglas ONU?",
+    "pregunta": "¿Qué significan las siglas ONU?",
+    "opciones": [
+      "Organización de las Naciones Unidas",
+      "Organización Nacional Universal",
+      "Oficina Nacional Unificada"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0171",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "exigir",
+      "exijir",
+      "ecsijir"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de g/j"
+  },
+  {
+    "id": "ESP-0172",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "desarrollar",
+      "desarroyar",
+      "desarollar"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de ll/y"
+  },
+  {
+    "id": "ESP-0173",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración usa correctamente 'sé' y 'se'?",
+    "pregunta": "¿Cuál oración usa correctamente 'sé' y 'se'?",
+    "opciones": [
+      "Yo sé la respuesta y él se fue.",
+      "Yo se la respuesta y él sé fue.",
+      "Yo sé la respuesta y él sé fue."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Monosílabos"
+  },
+  {
+    "id": "ESP-0174",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración usa correctamente los paréntesis?",
+    "pregunta": "¿Cuál oración usa correctamente los paréntesis?",
+    "opciones": [
+      "Miguel Hidalgo (1753-1811) fue un personaje histórico.",
+      "Miguel Hidalgo 1753-1811 (fue un personaje histórico).",
+      "Miguel Hidalgo (1753-1811 fue un personaje histórico."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Paréntesis"
+  },
+  {
+    "id": "ESP-0175",
+    "tema": "Sinónimos",
+    "nivel": "En 'La explicación fue precisa', ¿qué palabra puede sustituir a precisa?",
+    "pregunta": "En 'La explicación fue precisa', ¿qué palabra puede sustituir a precisa?",
+    "opciones": [
+      "exacta",
+      "confusa",
+      "larga"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0176",
+    "tema": "Antónimos",
+    "nivel": "En 'El camino era accesible', ¿cuál es el antónimo de accesible?",
+    "pregunta": "En 'El camino era accesible', ¿cuál es el antónimo de accesible?",
+    "opciones": [
+      "inaccesible",
+      "cercano",
+      "amplio"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0177",
+    "tema": "Homófonos",
+    "nivel": "Completa: Espero que él ___ la respuesta correcta.",
+    "pregunta": "Completa: Espero que él ___ la respuesta correcta.",
+    "opciones": [
+      "haya",
+      "halla",
+      "aya"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0178",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un pronombre personal?",
+    "pregunta": "¿Cuál palabra es un pronombre personal?",
+    "opciones": [
+      "nosotros",
+      "casa",
+      "rápidamente"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pronombre"
+  },
+  {
+    "id": "ESP-0179",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa una orden?",
+    "pregunta": "¿Cuál oración expresa una orden?",
+    "opciones": [
+      "Cierra la ventana, por favor.",
+      "¿Cerraste la ventana?",
+      "La ventana está cerrada."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Imperativa"
+  },
+  {
+    "id": "ESP-0180",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Quería salir; ___, comenzó a llover'.",
+    "pregunta": "Completa: 'Quería salir; ___, comenzó a llover'.",
+    "opciones": [
+      "sin embargo",
+      "por eso",
+      "además"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contraste"
+  },
+  {
+    "id": "ESP-0181",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'página'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'página'?",
+    "opciones": [
+      "pág.",
+      "pag.",
+      "p."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0182",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál opción está correctamente escrita?",
+    "pregunta": "¿Cuál opción está correctamente escrita?",
+    "opciones": [
+      "La evidencia era suficiente.",
+      "La evidensia era suficiente.",
+      "La evidencia era sufisiente."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de b/v"
+  },
+  {
+    "id": "ESP-0183",
+    "tema": "Ortografía",
+    "nivel": "Selecciona la palabra correctamente escrita.",
+    "pregunta": "Selecciona la palabra correctamente escrita.",
+    "opciones": [
+      "necesario",
+      "nesesario",
+      "necesarrio"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de c/s/z"
+  },
+  {
+    "id": "ESP-0184",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál oración es correcta?",
+    "pregunta": "¿Cuál oración es correcta?",
+    "opciones": [
+      "Había muchas personas en el lugar.",
+      "Avía muchas personas en el lugar.",
+      "Había muchas personas en el lugár."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de h"
+  },
+  {
+    "id": "ESP-0185",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál opción es correcta?",
+    "pregunta": "¿Cuál opción es correcta?",
+    "opciones": [
+      "El río Amazonas es uno de los más largos del mundo.",
+      "El Río Amazonas es uno de los más largos del mundo.",
+      "El río amazonas es uno de los más largos del mundo."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Mayúsculas"
+  },
+  {
+    "id": "ESP-0186",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra debe llevar tilde?",
+    "pregunta": "¿Cuál palabra debe llevar tilde?",
+    "opciones": [
+      "canción",
+      "pared",
+      "reloj"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Agudas"
+  },
+  {
+    "id": "ESP-0187",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente acentuada?",
+    "pregunta": "¿Cuál palabra está correctamente acentuada?",
+    "opciones": [
+      "fácil",
+      "facil",
+      "fácíl"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Graves"
+  },
+  {
+    "id": "ESP-0188",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "pájaro",
+      "pajaro",
+      "pájaró"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Esdrújulas"
+  },
+  {
+    "id": "ESP-0189",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración es correcta?",
+    "pregunta": "¿Cuál oración es correcta?",
+    "opciones": [
+      "Él trajo el libro.",
+      "El trajo él libro.",
+      "Él trajo él libro."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0190",
+    "tema": "Diptongo",
+    "nivel": "¿Cuál palabra contiene diptongo?",
+    "pregunta": "¿Cuál palabra contiene diptongo?",
+    "opciones": [
+      "puerta",
+      "río",
+      "maíz"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0191",
+    "tema": "Hiato",
+    "nivel": "¿Cuál palabra contiene hiato?",
+    "pregunta": "¿Cuál palabra contiene hiato?",
+    "opciones": [
+      "país",
+      "tierra",
+      "puerta"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0192",
+    "tema": "Triptongo",
+    "nivel": "¿Cuál palabra contiene triptongo?",
+    "pregunta": "¿Cuál palabra contiene triptongo?",
+    "opciones": [
+      "Uruguay",
+      "país",
+      "poeta"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0193",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración usa correctamente la coma vocativa?",
+    "pregunta": "¿Cuál oración usa correctamente la coma vocativa?",
+    "opciones": [
+      "María, ven aquí un momento.",
+      "María ven, aquí un momento.",
+      "María ven aquí, un momento."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Coma vocativa"
+  },
+  {
+    "id": "ESP-0194",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción está correctamente puntuada?",
+    "pregunta": "¿Cuál opción está correctamente puntuada?",
+    "opciones": [
+      "Unos prefieren el verano; otros, el invierno.",
+      "Unos prefieren; el verano otros, el invierno.",
+      "Unos prefieren el verano otros; el invierno."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Punto y coma"
+  },
+  {
+    "id": "ESP-0195",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción es correcta?",
+    "pregunta": "¿Cuál opción es correcta?",
+    "opciones": [
+      "Solo necesito tres cosas: tiempo, paciencia y práctica.",
+      "Solo necesito: tres cosas tiempo, paciencia y práctica.",
+      "Solo: necesito tres cosas tiempo, paciencia y práctica."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dos puntos"
+  },
+  {
+    "id": "ESP-0196",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál pregunta está correctamente escrita?",
+    "pregunta": "¿Cuál pregunta está correctamente escrita?",
+    "opciones": [
+      "¿Cuándo comenzará el examen?",
+      "¿Cuando comenzará el examen?",
+      "Cuándo comenzará el examen?"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Signos de interrogación"
+  },
+  {
+    "id": "ESP-0197",
+    "tema": "Sinónimos",
+    "nivel": "Sinónimo de 'prudente'.",
+    "pregunta": "Sinónimo de 'prudente'.",
+    "opciones": [
+      "sensato",
+      "imprudente",
+      "descuidado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0198",
+    "tema": "Sinónimos",
+    "nivel": "En 'El resultado fue inesperado', ¿qué palabra puede sustituir a inesperado?",
+    "pregunta": "En 'El resultado fue inesperado', ¿qué palabra puede sustituir a inesperado?",
+    "opciones": [
+      "sorpresivo",
+      "previsible",
+      "planeado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0199",
+    "tema": "Antónimos",
+    "nivel": "Antónimo de 'generoso'.",
+    "pregunta": "Antónimo de 'generoso'.",
+    "opciones": [
+      "tacaño",
+      "amable",
+      "solidario"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0200",
+    "tema": "Antónimos",
+    "nivel": "Antónimo de 'efímero'.",
+    "pregunta": "Antónimo de 'efímero'.",
+    "opciones": [
+      "duradero",
+      "breve",
+      "momentáneo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0201",
+    "tema": "Homónimos",
+    "nivel": "¿Cuál ejemplo corresponde a un homónimo?",
+    "pregunta": "¿Cuál ejemplo corresponde a un homónimo?",
+    "opciones": [
+      "La llama del fuego / La llama del animal.",
+      "casa / caza",
+      "vello / bello"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0202",
+    "tema": "Homófonos",
+    "nivel": "Completa: Voy a ___ un libro de la biblioteca.",
+    "pregunta": "Completa: Voy a ___ un libro de la biblioteca.",
+    "opciones": [
+      "hojear",
+      "ojear",
+      "ojear"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0203",
+    "tema": "Primitivas y derivadas",
+    "nivel": "¿Cuál palabra deriva de 'mar'?",
+    "pregunta": "¿Cuál palabra deriva de 'mar'?",
+    "opciones": [
+      "marinero",
+      "sol",
+      "luz"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Formación"
+  },
+  {
+    "id": "ESP-0204",
+    "tema": "Primitivas y derivadas",
+    "nivel": "¿Cuál grupo contiene una palabra primitiva?",
+    "pregunta": "¿Cuál grupo contiene una palabra primitiva?",
+    "opciones": [
+      "pan, panadero, panadería",
+      "flor, florero, florista",
+      "mar, marinero, marítimo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Formación"
+  },
+  {
+    "id": "ESP-0205",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un verbo?",
+    "pregunta": "¿Cuál palabra es un verbo?",
+    "opciones": [
+      "construir",
+      "construcción",
+      "constructivo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Verbo"
+  },
+  {
+    "id": "ESP-0206",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál oración contiene un adverbio de modo?",
+    "pregunta": "¿Cuál oración contiene un adverbio de modo?",
+    "opciones": [
+      "El atleta corrió rápidamente.",
+      "El atleta corrió ayer.",
+      "El atleta corrió aquí."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adverbio"
+  },
+  {
+    "id": "ESP-0207",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál es una oración enunciativa?",
+    "pregunta": "¿Cuál es una oración enunciativa?",
+    "opciones": [
+      "La Tierra gira alrededor del Sol.",
+      "¿Gira la Tierra alrededor del Sol?",
+      "¡Qué hermoso es el planeta!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Enunciativa"
+  },
+  {
+    "id": "ESP-0208",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa duda?",
+    "pregunta": "¿Cuál oración expresa duda?",
+    "opciones": [
+      "Quizá mañana llueva.",
+      "Mañana lloverá.",
+      "¡Está lloviendo!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dubitativa"
+  },
+  {
+    "id": "ESP-0209",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'Durante la mañana, los alumnos resolvieron el examen', ¿cuál es el predicado?",
+    "pregunta": "En 'Durante la mañana, los alumnos resolvieron el examen', ¿cuál es el predicado?",
+    "opciones": [
+      "Durante la mañana",
+      "los alumnos",
+      "resolvieron el examen"
+    ],
+    "correcta": 2,
+    "explicacion": "Respuesta correcta: opción C.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0210",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál oración está en presente?",
+    "pregunta": "¿Cuál oración está en presente?",
+    "opciones": [
+      "Los estudiantes trabajan en equipo.",
+      "Los estudiantes trabajaron en equipo.",
+      "Los estudiantes trabajarán en equipo."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Presente"
+  },
+  {
+    "id": "ESP-0211",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál forma verbal está en pretérito perfecto simple?",
+    "pregunta": "¿Cuál forma verbal está en pretérito perfecto simple?",
+    "opciones": [
+      "escribió",
+      "escribía",
+      "ha escrito"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pasado"
+  },
+  {
+    "id": "ESP-0212",
+    "tema": "Conjugación",
+    "nivel": "Completa: Espero que ustedes ___ el proyecto a tiempo.",
+    "pregunta": "Completa: Espero que ustedes ___ el proyecto a tiempo.",
+    "opciones": [
+      "terminen",
+      "terminaron",
+      "terminarán"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Modo subjuntivo"
+  },
+  {
+    "id": "ESP-0213",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Estudió matemáticas y, ___, repasó español'.",
+    "pregunta": "Completa: 'Estudió matemáticas y, ___, repasó español'.",
+    "opciones": [
+      "además",
+      "sin embargo",
+      "por eso"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adición"
+  },
+  {
+    "id": "ESP-0214",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Organizó su tiempo ___ terminar todas sus tareas'.",
+    "pregunta": "Completa: 'Organizó su tiempo ___ terminar todas sus tareas'.",
+    "opciones": [
+      "para",
+      "porque",
+      "sin embargo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Finalidad"
+  },
+  {
+    "id": "ESP-0215",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'doctor'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'doctor'?",
+    "opciones": [
+      "Dr.",
+      "Doc.",
+      "Dtr."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0216",
+    "tema": "Siglas",
+    "nivel": "¿Qué significan las siglas SEP?",
+    "pregunta": "¿Qué significan las siglas SEP?",
+    "opciones": [
+      "Secretaría de Educación Pública",
+      "Sistema Educativo Primario",
+      "Servicio Escolar Público"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0217",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "geografía",
+      "jeografía",
+      "geográfia"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de g/j"
+  },
+  {
+    "id": "ESP-0218",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "proyecto",
+      "prollecto",
+      "proyeccto"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso de ll/y"
+  },
+  {
+    "id": "ESP-0219",
+    "tema": "Acentuación",
+    "nivel": "Selecciona la oración correcta.",
+    "pregunta": "Selecciona la oración correcta.",
+    "opciones": [
+      "Quiero más agua, mas no tengo sed.",
+      "Quiero mas agua, más no tengo sed.",
+      "Quiero más agua, más no tengo sed."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0220",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción usa correctamente los puntos suspensivos?",
+    "pregunta": "¿Cuál opción usa correctamente los puntos suspensivos?",
+    "opciones": [
+      "No sé... quizá mañana.",
+      "No sé... quizá mañana...",
+      "No sé, ... quizá mañana."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Puntos suspensivos"
+  },
+  {
+    "id": "ESP-0221",
+    "tema": "Sinónimos",
+    "nivel": "En 'La decisión fue acertada', ¿qué palabra es sinónimo de acertada?",
+    "pregunta": "En 'La decisión fue acertada', ¿qué palabra es sinónimo de acertada?",
+    "opciones": [
+      "correcta",
+      "equivocada",
+      "dudosa"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0222",
+    "tema": "Antónimos",
+    "nivel": "Antónimo de 'hostil'.",
+    "pregunta": "Antónimo de 'hostil'.",
+    "opciones": [
+      "amistoso",
+      "agresivo",
+      "violento"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0223",
+    "tema": "Homófonos",
+    "nivel": "Completa: El estudiante ___ la respuesta en su cuaderno.",
+    "pregunta": "Completa: El estudiante ___ la respuesta en su cuaderno.",
+    "opciones": [
+      "escribió",
+      "escrivió",
+      "escribyo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0224",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra es un pronombre demostrativo?",
+    "pregunta": "¿Cuál palabra es un pronombre demostrativo?",
+    "opciones": [
+      "aquello",
+      "mesa",
+      "rápidamente"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pronombre"
+  },
+  {
+    "id": "ESP-0225",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa una petición o exhortación?",
+    "pregunta": "¿Cuál oración expresa una petición o exhortación?",
+    "opciones": [
+      "Por favor, guarda silencio.",
+      "¿Guardaste silencio?",
+      "El salón está en silencio."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Exhortativa"
+  },
+  {
+    "id": "ESP-0226",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Primero revisó el problema; ___, realizó la operación'.",
+    "pregunta": "Completa: 'Primero revisó el problema; ___, realizó la operación'.",
+    "opciones": [
+      "después",
+      "sin embargo",
+      "aunque"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Secuencia"
+  },
+  {
+    "id": "ESP-0227",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'número'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'número'?",
+    "opciones": [
+      "núm.",
+      "num.",
+      "nro"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0228",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración está correctamente puntuada?",
+    "pregunta": "¿Cuál oración está correctamente puntuada?",
+    "opciones": [
+      "Después de la lluvia, salimos a caminar.",
+      "Después, de la lluvia salimos a caminar.",
+      "Después de la lluvia salimos, a caminar."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Coma"
+  },
+  {
+    "id": "ESP-0229",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción usa correctamente los dos puntos?",
+    "pregunta": "¿Cuál opción usa correctamente los dos puntos?",
+    "opciones": [
+      "El director anunció lo siguiente: mañana no habrá clases.",
+      "El director: anunció lo siguiente mañana no habrá clases.",
+      "El director anunció: lo siguiente mañana no habrá clases."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dos puntos"
+  },
+  {
+    "id": "ESP-0230",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración está correctamente puntuada?",
+    "pregunta": "¿Cuál oración está correctamente puntuada?",
+    "opciones": [
+      "El primer equipo terminó; el segundo todavía continúa.",
+      "El primer equipo; terminó el segundo todavía continúa.",
+      "El primer equipo terminó el segundo; todavía continúa."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Punto y coma"
+  },
+  {
+    "id": "ESP-0231",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción presenta correctamente una cita?",
+    "pregunta": "¿Cuál opción presenta correctamente una cita?",
+    "opciones": [
+      "El maestro dijo: «Mañana habrá examen».",
+      "El maestro dijo «:Mañana habrá examen».",
+      "El maestro «dijo: Mañana habrá examen»."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Comillas"
+  },
+  {
+    "id": "ESP-0232",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración usa correctamente los paréntesis?",
+    "pregunta": "¿Cuál oración usa correctamente los paréntesis?",
+    "opciones": [
+      "La independencia de México comenzó en 1810 (siglo XIX).",
+      "La independencia de México comenzó (en 1810 siglo XIX).",
+      "La independencia de México (comenzó en 1810 siglo XIX)."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Paréntesis"
+  },
+  {
+    "id": "ESP-0233",
+    "tema": "Acentuación",
+    "nivel": "Selecciona la opción correcta.",
+    "pregunta": "Selecciona la opción correcta.",
+    "opciones": [
+      "Si estudias, sí podrás aprobar.",
+      "Sí estudias, si podrás aprobar.",
+      "Si estudias, si podrás aprobar."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0234",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración está correctamente escrita?",
+    "pregunta": "¿Cuál oración está correctamente escrita?",
+    "opciones": [
+      "Explícame cómo resolviste el problema.",
+      "Explícame como resolviste el problema.",
+      "Explícame cómo resolvíste el problema."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogativos"
+  },
+  {
+    "id": "ESP-0235",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra debe llevar tilde?",
+    "pregunta": "¿Cuál palabra debe llevar tilde?",
+    "opciones": [
+      "también",
+      "pared",
+      "reloj"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Agudas"
+  },
+  {
+    "id": "ESP-0236",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra está correctamente acentuada?",
+    "pregunta": "¿Cuál palabra está correctamente acentuada?",
+    "opciones": [
+      "difícil",
+      "dificil",
+      "difícíl"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Graves"
+  },
+  {
+    "id": "ESP-0237",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál palabra es esdrújula?",
+    "pregunta": "¿Cuál palabra es esdrújula?",
+    "opciones": [
+      "matemáticas",
+      "pared",
+      "canción"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Esdrújulas"
+  },
+  {
+    "id": "ESP-0238",
+    "tema": "Diptongo",
+    "nivel": "¿Cuál palabra contiene un diptongo?",
+    "pregunta": "¿Cuál palabra contiene un diptongo?",
+    "opciones": [
+      "cuadro",
+      "país",
+      "poeta"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0239",
+    "tema": "Hiato",
+    "nivel": "¿Cuál palabra contiene un hiato?",
+    "pregunta": "¿Cuál palabra contiene un hiato?",
+    "opciones": [
+      "río",
+      "aire",
+      "cuidado"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0240",
+    "tema": "Triptongo",
+    "nivel": "¿Cuál palabra contiene un triptongo?",
+    "pregunta": "¿Cuál palabra contiene un triptongo?",
+    "opciones": [
+      "Uruguay",
+      "país",
+      "caer"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0241",
+    "tema": "Sinónimos",
+    "nivel": "En 'La decisión fue sensata', ¿qué palabra puede sustituir a sensata?",
+    "pregunta": "En 'La decisión fue sensata', ¿qué palabra puede sustituir a sensata?",
+    "opciones": [
+      "prudente",
+      "imprudente",
+      "arriesgada"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0242",
+    "tema": "Sinónimos",
+    "nivel": "¿Cuál es sinónimo de 'observar'?",
+    "pregunta": "¿Cuál es sinónimo de 'observar'?",
+    "opciones": [
+      "mirar",
+      "ignorar",
+      "ocultar"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0243",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es el antónimo de 'preciso'?",
+    "pregunta": "¿Cuál es el antónimo de 'preciso'?",
+    "opciones": [
+      "impreciso",
+      "exacto",
+      "correcto"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0244",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es antónimo de 'humilde'?",
+    "pregunta": "¿Cuál es antónimo de 'humilde'?",
+    "opciones": [
+      "soberbio",
+      "sencillo",
+      "modesto"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  },
+  {
+    "id": "ESP-0245",
+    "tema": "Homófonos",
+    "nivel": "Completa: No sé ___ vendrá mañana.",
+    "pregunta": "Completa: No sé ___ vendrá mañana.",
+    "opciones": [
+      "quién",
+      "quien",
+      "kien"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0246",
+    "tema": "Homófonos",
+    "nivel": "Completa: El alumno ___ la respuesta correcta.",
+    "pregunta": "Completa: El alumno ___ la respuesta correcta.",
+    "opciones": [
+      "hizo",
+      "izo",
+      "hiso"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0247",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál palabra funciona como pronombre personal?",
+    "pregunta": "¿Cuál palabra funciona como pronombre personal?",
+    "opciones": [
+      "ustedes",
+      "escuela",
+      "rápidamente"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pronombre"
+  },
+  {
+    "id": "ESP-0248",
+    "tema": "Categorías gramaticales",
+    "nivel": "¿Cuál oración contiene un adverbio de tiempo?",
+    "pregunta": "¿Cuál oración contiene un adverbio de tiempo?",
+    "opciones": [
+      "Mañana iremos al museo.",
+      "El niño corre rápidamente.",
+      "El libro está aquí."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Adverbio"
+  },
+  {
+    "id": "ESP-0249",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'Los estudiantes de sexto resolvieron correctamente el problema', ¿cuál es el núcleo del sujeto?",
+    "pregunta": "En 'Los estudiantes de sexto resolvieron correctamente el problema', ¿cuál es el núcleo del sujeto?",
+    "opciones": [
+      "estudiantes",
+      "sexto",
+      "resolvieron"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Sujeto"
+  },
+  {
+    "id": "ESP-0250",
+    "tema": "Sujeto y predicado",
+    "nivel": "En 'La maestra explicó claramente la lección', ¿cuál es el núcleo del predicado?",
+    "pregunta": "En 'La maestra explicó claramente la lección', ¿cuál es el núcleo del predicado?",
+    "opciones": [
+      "explicó",
+      "maestra",
+      "claramente"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Predicado"
+  },
+  {
+    "id": "ESP-0251",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál oración está en pretérito pluscuamperfecto?",
+    "pregunta": "¿Cuál oración está en pretérito pluscuamperfecto?",
+    "opciones": [
+      "Ya había terminado cuando llegaste.",
+      "Ya terminé cuando llegaste.",
+      "Ya terminaré cuando llegues."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Pretérito pluscuamperfecto"
+  },
+  {
+    "id": "ESP-0252",
+    "tema": "Tiempos verbales",
+    "nivel": "¿Cuál verbo está en futuro?",
+    "pregunta": "¿Cuál verbo está en futuro?",
+    "opciones": [
+      "resolveremos",
+      "resolvimos",
+      "resolvíamos"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Futuro"
+  },
+  {
+    "id": "ESP-0253",
+    "tema": "Conjugación",
+    "nivel": "Completa: 'Es importante que tú ___ atención'.",
+    "pregunta": "Completa: 'Es importante que tú ___ atención'.",
+    "opciones": [
+      "pongas",
+      "pones",
+      "pusiste"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Subjuntivo"
+  },
+  {
+    "id": "ESP-0254",
+    "tema": "Conectores",
+    "nivel": "Completa: 'No asistió a clases ___ estaba enfermo'.",
+    "pregunta": "Completa: 'No asistió a clases ___ estaba enfermo'.",
+    "opciones": [
+      "porque",
+      "sin embargo",
+      "además"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Causa"
+  },
+  {
+    "id": "ESP-0255",
+    "tema": "Conectores",
+    "nivel": "Completa: 'No estudió; ___, obtuvo una calificación baja'.",
+    "pregunta": "Completa: 'No estudió; ___, obtuvo una calificación baja'.",
+    "opciones": [
+      "por eso",
+      "aunque",
+      "sin embargo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Consecuencia"
+  },
+  {
+    "id": "ESP-0256",
+    "tema": "Conectores",
+    "nivel": "Completa: 'El examen era difícil; ___, todos lo resolvieron'.",
+    "pregunta": "Completa: 'El examen era difícil; ___, todos lo resolvieron'.",
+    "opciones": [
+      "sin embargo",
+      "por lo tanto",
+      "porque"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contraste"
+  },
+  {
+    "id": "ESP-0257",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "extranjero",
+      "extrangero",
+      "extranjéro"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "G/J"
+  },
+  {
+    "id": "ESP-0258",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "eficiencia",
+      "eficiensia",
+      "efiziencia"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "C/S/Z"
+  },
+  {
+    "id": "ESP-0259",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "subvención",
+      "subbención",
+      "subvensión"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "B/V"
+  },
+  {
+    "id": "ESP-0260",
+    "tema": "Abreviaturas",
+    "nivel": "¿Cuál es la abreviatura correcta de 'aproximadamente'?",
+    "pregunta": "¿Cuál es la abreviatura correcta de 'aproximadamente'?",
+    "opciones": [
+      "aprox.",
+      "aprx.",
+      "apro."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Uso"
+  },
+  {
+    "id": "ESP-0261",
+    "tema": "Siglas",
+    "nivel": "¿Qué significan las siglas IMSS?",
+    "pregunta": "¿Qué significan las siglas IMSS?",
+    "opciones": [
+      "Instituto Mexicano del Seguro Social",
+      "Instituto Médico de Servicios Sanitarios",
+      "Instituto Mexicano de Salud Social"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0262",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál opción es correcta?",
+    "pregunta": "¿Cuál opción es correcta?",
+    "opciones": [
+      "Solo había una solución: trabajar juntos.",
+      "Solo había: una solución trabajar juntos.",
+      "Solo: había una solución trabajar juntos."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dos puntos"
+  },
+  {
+    "id": "ESP-0263",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál oración está correctamente escrita?",
+    "pregunta": "¿Cuál oración está correctamente escrita?",
+    "opciones": [
+      "Aún no llega el profesor.",
+      "Aun no llega el profesor.",
+      "Aún no llegá el profesor."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Tilde diacrítica"
+  },
+  {
+    "id": "ESP-0264",
+    "tema": "Diptongo",
+    "nivel": "¿Cuál palabra tiene dos diptongos?",
+    "pregunta": "¿Cuál palabra tiene dos diptongos?",
+    "opciones": [
+      "cuidado",
+      "país",
+      "teatro"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Clasificación"
+  },
+  {
+    "id": "ESP-0265",
+    "tema": "Hiato",
+    "nivel": "¿Cuál palabra presenta dos vocales abiertas separadas por un hiato?",
+    "pregunta": "¿Cuál palabra presenta dos vocales abiertas separadas por un hiato?",
+    "opciones": [
+      "caoba",
+      "tierra",
+      "ciudad"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Clasificación"
+  },
+  {
+    "id": "ESP-0266",
+    "tema": "Sinónimos",
+    "nivel": "En 'El discurso fue breve', ¿qué palabra puede sustituir a breve?",
+    "pregunta": "En 'El discurso fue breve', ¿qué palabra puede sustituir a breve?",
+    "opciones": [
+      "corto",
+      "extenso",
+      "interminable"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0267",
+    "tema": "Antónimos",
+    "nivel": "¿Cuál es el antónimo de 'frecuente'?",
+    "pregunta": "¿Cuál es el antónimo de 'frecuente'?",
+    "opciones": [
+      "ocasional",
+      "habitual",
+      "constante"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Contexto"
+  },
+  {
+    "id": "ESP-0268",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa duda?",
+    "pregunta": "¿Cuál oración expresa duda?",
+    "opciones": [
+      "Probablemente llegue después.",
+      "Llegará después.",
+      "¡Llegó después!"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Dubitativa"
+  },
+  {
+    "id": "ESP-0269",
+    "tema": "Tipos de oración",
+    "nivel": "¿Cuál oración expresa una petición?",
+    "pregunta": "¿Cuál oración expresa una petición?",
+    "opciones": [
+      "Por favor, espera un momento.",
+      "¿Esperaste un momento?",
+      "Esperaste un momento."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Exhortativa"
+  },
+  {
+    "id": "ESP-0270",
+    "tema": "Sujeto tácito",
+    "nivel": "En 'Estudiamos para el examen toda la tarde', ¿cuál es el sujeto tácito?",
+    "pregunta": "En 'Estudiamos para el examen toda la tarde', ¿cuál es el sujeto tácito?",
+    "opciones": [
+      "Nosotros",
+      "Ellos",
+      "Ustedes"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Identificación"
+  },
+  {
+    "id": "ESP-0271",
+    "tema": "Conectores",
+    "nivel": "Completa: 'Organizó sus apuntes ___ estudiar mejor'.",
+    "pregunta": "Completa: 'Organizó sus apuntes ___ estudiar mejor'.",
+    "opciones": [
+      "para",
+      "porque",
+      "sin embargo"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Finalidad"
+  },
+  {
+    "id": "ESP-0272",
+    "tema": "Ortografía",
+    "nivel": "¿Cuál palabra está correctamente escrita?",
+    "pregunta": "¿Cuál palabra está correctamente escrita?",
+    "opciones": [
+      "prohibir",
+      "proivir",
+      "prohivir"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "H"
+  },
+  {
+    "id": "ESP-0273",
+    "tema": "Puntuación",
+    "nivel": "¿Cuál oración está correctamente puntuada?",
+    "pregunta": "¿Cuál oración está correctamente puntuada?",
+    "opciones": [
+      "Sin embargo, decidimos continuar.",
+      "Sin embargo decidimos, continuar.",
+      "Sin, embargo decidimos continuar."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Coma"
+  },
+  {
+    "id": "ESP-0274",
+    "tema": "Acentuación",
+    "nivel": "¿Cuál opción es correcta?",
+    "pregunta": "¿Cuál opción es correcta?",
+    "opciones": [
+      "No entiendo por qué llegaste tarde.",
+      "No entiendo porque llegaste tarde.",
+      "No entiendo porqué llegaste tarde."
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Interrogativos"
+  },
+  {
+    "id": "ESP-0275",
+    "tema": "Sinónimos",
+    "nivel": "¿Cuál es sinónimo de 'valioso'?",
+    "pregunta": "¿Cuál es sinónimo de 'valioso'?",
+    "opciones": [
+      "preciado",
+      "insignificante",
+      "común"
+    ],
+    "correcta": 0,
+    "explicacion": "Respuesta correcta: opción A.",
+    "subtema": "Vocabulario"
+  }
+]
