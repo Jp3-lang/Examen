@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de Administrador - Examen de Ingreso</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f4f6f8;margin:0;padding:20px}
+.contenedor{max-width:1000px;margin:40px auto;background:#fff;padding:30px;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.1)}
+h1{text-align:center;color:#333}button{width:100%;padding:12px;margin-top:10px;border:0;border-radius:6px;background:#2563eb;color:#fff;font-size:16px;cursor:pointer}
+button:hover{background:#1d4ed8}.cerrar{background:#dc2626}.cerrar:hover{background:#b91c1c}
+#panel{display:none}#mensaje{text-align:center;margin-top:15px;color:red}table{width:100%;border-collapse:collapse;margin-top:20px}
+th,td{border:1px solid #ddd;padding:10px;text-align:center}th{background:#f0f0f0}
+@media(max-width:700px){.contenedor{padding:15px}table{font-size:12px}th,td{padding:6px}}
+</style>
+</head>
+<body>
+<div class="contenedor">
+  <div id="login">
+    <h1>Panel de Administrador</h1>
+    <p style="text-align:center;">Inicia sesión con tu cuenta de Google</p>
+    <button id="btnGoogle">🔐 Acceder con Google</button>
+    <p id="mensaje"></p>
+  </div>
+  <div id="panel">
+    <h1>Resultados del Examen de Ingreso</h1>
+    <p id="usuario"></p>
+    <button class="cerrar" id="btnCerrar">Cerrar sesión</button>
+    <button id="btnActualizar">Actualizar resultados</button>
+    <h2>Crear accesos para alumnos</h2>
+    <button id="btnCrearAcceso">Crear nuevo enlace</button>
+    <div id="accesos"></div>
+    <div id="resultados">Cargando resultados...</div>
+    <div id="detalleResultado" style="margin-top:30px"></div>
+  </div>
+</div>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+import { getFirestore, collection, getDocs, doc, setDoc, serverTimestamp, query, orderBy } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAxv_ZFMYvbwHWtQhLYf7ZlhnyyOFOB05w",
+  authDomain: "examen-11a7c.firebaseapp.com",
+  projectId: "examen-11a7c",
+  storageBucket: "examen-11a7c.firebasestorage.app",
+  messagingSenderId: "1075495431638",
+  appId: "1:1075495431638:web:341f1cb00f5df4ec520877"
+};
+
+const app=initializeApp(firebaseConfig);
+const db=getFirestore(app);
+const auth=getAuth(app);
+const provider=new GoogleAuthProvider();
+
+const login=document.getElementById("login");
+const panel=document.getElementById("panel");
+const mensaje=document.getElementById("mensaje");
+const usuario=document.getElementById("usuario");
+const resultados=document.getElementById("resultados");
+const accesos=document.getElementById("accesos");
+const detalleResultado=document.getElementById("detalleResultado");
+
+document.getElementById("btnGoogle").addEventListener("click",async()=>{
+  mensaje.textContent="Iniciando sesión...";
+  try{await signInWithPopup(auth,provider)}
+  catch(error){console.error(error);mensaje.textContent="No se pudo iniciar sesión."}
+});
+
+onAuthStateChanged(auth,async user=>{
+  if(user){
+    login.style.display="none";
+    panel.style.display="block";
+    usuario.textContent="Administrador: "+user.email;
+    await cargarResultados();
+    await cargarAccesos();
+  }else{
+    login.style.display="block";
+    panel.style.display="none";
+  }
+});
+
+document.getElementById("btnCerrar").addEventListener("click",()=>signOut(auth));
+document.getElementById("btnActualizar").addEventListener("click",cargarResultados);
+document.getElementById("btnCrearAcceso").addEventListener("click",crearAcceso);
+
+function generarCodigo() {
+  const caracteres = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789";
+  let codigo = "";
+  for (let i = 0; i < 12; i++) codigo += caracteres[Math.floor(Math.random() * caracteres.length)];
+  return codigo;
+}
+
+async function crearAcceso() {
+  const boton = document.getElementById("btnCrearAcceso");
+  boton.disabled = true;
+  try {
+    let codigo = generarCodigo();
+    let referencia = doc(db, "intentos", codigo);
+    let existente = await getDocs(query(collection(db, "intentos"), orderBy("createdAt", "desc")));
+    const codigosExistentes = new Set(existente.docs.map(d => d.id));
+    while (codigosExistentes.has(codigo)) {
+      codigo = generarCodigo();
+      referencia = doc(db, "intentos", codigo);
+    }
+    await setDoc(referencia, { usado: false, createdAt: serverTimestamp() });
+    await cargarAccesos();
+  } catch (error) {
+    console.error(error);
+    alert("No se pudo crear el enlace.");
+  } finally {
+    boton.disabled = false;
+  }
+}
+
+async function cargarAccesos() {
+  accesos.innerHTML = "Cargando accesos...";
+  try {
+    const consulta = await getDocs(query(collection(db, "intentos"), orderBy("createdAt", "desc")));
+    if (consulta.empty) { accesos.innerHTML = "<p>No hay accesos creados todavía.</p>"; return; }
+
+    // El administrador está en /admin.html; los alumnos deben ir a /index.html.
+    const base = new URL("index.html", window.location.href).href;
+
+    let html = `<table><tr><th>Enlace</th><th>Estado</th></tr>`;
+    consulta.forEach(d => {
+      const datos = d.data();
+      const url = `${base}?codigo=${encodeURIComponent(d.id)}`;
+      html += `<tr><td><a href="${url}" target="_blank" rel="noopener">${url}</a></td><td>${datos.usado ? "Utilizado" : "Disponible"}</td></tr>`;
+    });
+    html += "</table>";
+    accesos.innerHTML = html;
+  } catch (error) {
+    console.error(error);
+    accesos.innerHTML = "<p>No se pudieron cargar los accesos.</p>";
+  }
+}
+
+async function verDetalle(id){
+  try{
+    const d=await getDocs(collection(db,"resultados"));
+    const docSnap=d.docs.find(x=>x.id===id);
+    if(!docSnap){alert("No se encontró el resultado.");return;}
+    const datos=docSnap.data();
+    const mat=Array.isArray(datos.respuestasMatematicas)?datos.respuestasMatematicas:(datos.respuestasMatematicas||{});
+    const esp=Array.isArray(datos.respuestasEspanol)?datos.respuestasEspanol:(datos.respuestasEspanol||{});
+    const matPreg=await cargarJSON("matematicas.json");
+    const espPreg=await cargarJSON("espanol.json");
+    detalleResultado.innerHTML=`<h2>Respuestas de ${escapeHtml(datos.nombre||"Sin nombre")}</h2>`+generarDetalle("Matemáticas",matPreg,mat)+generarDetalle("Español",espPreg,esp);
+    detalleResultado.scrollIntoView({behavior:"smooth"});
+  }catch(e){console.error(e);detalleResultado.innerHTML="<p>No se pudieron cargar las respuestas.</p>";}
+}
+window.verDetalle=verDetalle;
+
+async function cargarJSON(nombre){const r=await fetch(nombre);if(!r.ok)throw new Error("No se pudo cargar "+nombre);return await r.json();}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));}
+function generarDetalle(titulo,preguntas,respuestas){
+  let h=`<h3 style="margin-top:25px">${titulo}</h3><table><tr><th>#</th><th>Pregunta</th><th>Respuesta del alumno</th><th>Respuesta correcta</th><th>Resultado</th></tr>`;
+  preguntas.slice(0,20).forEach((p,i)=>{
+    const a=respuestas[i]!==undefined?respuestas[i]:respuestas[String(i)];
+    const correcta=Number.isInteger(p.correcta)?p.correcta:-1;
+    const respondida=a!==undefined;
+    const esCorrecta=respondida && correcta>=0 && Number(a)===correcta;
+    const textoAlumno=respondida && p.opciones && p.opciones[Number(a)]!==undefined?p.opciones[Number(a)]:"Sin respuesta";
+    const textoCorrecta=correcta>=0 && p.opciones && p.opciones[correcta]!==undefined?p.opciones[correcta]:String(p.correcta??"No disponible");
+    h+=`<tr><td>${i+1}</td><td style="text-align:left">${escapeHtml(p.pregunta)}</td><td style="text-align:left">${escapeHtml(textoAlumno)}</td><td style="text-align:left">${escapeHtml(textoCorrecta)}</td><td>${esCorrecta?"✅ Correcta":respondida?"❌ Incorrecta":"⚠️ Sin respuesta"}</td></tr>`;
+  });
+  return h+"</table>";
+}
+
+async function cargarResultados(){
+  resultados.innerHTML="Cargando resultados...";
+  try{
+    const consulta=await getDocs(collection(db,"resultados"));
+    if(consulta.empty){resultados.innerHTML="<p>No hay resultados todavía.</p>";return}
+    let html=`<table><tr><th>Alumno</th><th>Matemáticas</th><th>Español</th><th>Promedio</th><th>Detalle</th></tr>`;
+    consulta.forEach(documento=>{
+      const datos=documento.data();
+      const matematicas=datos.matematicas||0;
+      const totalMatematicas=datos.totalMatematicas||0;
+      const espanol=datos.espanol||0;
+      const totalEspanol=datos.totalEspanol||0;
+      const porcentajeMatematicas=totalMatematicas?(matematicas/totalMatematicas)*100:0;
+      const porcentajeEspanol=totalEspanol?(espanol/totalEspanol)*100:0;
+      const promedio=(porcentajeMatematicas+porcentajeEspanol)/2;
+      html+=`<tr><td>${datos.nombre||"Sin nombre"}</td><td>${matematicas}/${totalMatematicas}<br>(${porcentajeMatematicas.toFixed(0)}%)</td><td>${espanol}/${totalEspanol}<br>(${porcentajeEspanol.toFixed(0)}%)</td><td>${promedio.toFixed(0)}%</td><td><button style="width:auto;margin:0;padding:8px 14px" onclick='verDetalle(${JSON.stringify(documento.id)})'>Ver respuestas</button></td></tr>`;
+    });
+    html+="</table>";
+    resultados.innerHTML=html;
+  }catch(error){
+    console.error(error);
+    resultados.innerHTML="<p>No se pudieron cargar los resultados.</p>";
+  }
+}
+</script>
+</body>
+</html>
